@@ -18,6 +18,7 @@ public class TheEgg : MonoBehaviour
     //Egg Challange Vars
     [SerializeField] List<GameObject> EggPannel; //list of egg pannels
     [SerializeField] List<char> RandomKeys;
+    [SerializeField] bool KeyChosen = false;
     [SerializeField] GameObject EggPannelOneGreenCircle;
     [SerializeField] GameObject EggPannelTwoGreenCircle;
     [SerializeField] bool ReductionActive = false;
@@ -28,7 +29,6 @@ public class TheEgg : MonoBehaviour
     {
         //Start Progress Egg Timer
         StartCoroutine(ProgressEgg());
-        ChoseKey();
     }
 
     void Update()
@@ -47,16 +47,43 @@ public class TheEgg : MonoBehaviour
                 ReductionActive = false;
             }
         }
-        if (EggDifficulty == 1)
+        if (EggDifficulty == 1) // || Input.GetButton("Interact2") || Input.GetButton("Interact3")
         {
-            EggPannel[EggDifficulty].GetComponentInChildren<TMP_Text>().text = "Press and Hold E\r\nand Press " + ChosenKey;
-            if (Input.GetButton("Interact") && Input.GetButton(""))
+            if(KeyChosen == false)
+            {
+                ChoseKey();
+                KeyChosen = true;
+            }
+            EggPannel[EggDifficulty].GetComponentInChildren<TMP_Text>().text = "Tap " + ChosenKey;
+            if (Input.GetButton("Interact"))
             {
                 EggPannelTwoGreenCircle.GetComponentInChildren<TMP_Text>().text = "E " + ChosenKey;
-                EggPannelTwoGreenCircle.SetActive(true);
+                if(ChosenKey == 'Q' && Input.GetButtonDown("Interact1"))
+                {
+                    EggPannelTwoGreenCircle.SetActive(true);
+                    ProgressTotal -= ReductionAmount;
+                    ChoseKey();
+                }
+                else if (ChosenKey == 'R' && Input.GetButtonDown("Interact2"))
+                {
+                    EggPannelTwoGreenCircle.SetActive(true);
+                    ProgressTotal -= ReductionAmount;
+                    ChoseKey();
+                }
+                else if (ChosenKey == 'F' && Input.GetButtonDown("Interact3"))
+                {
+                    EggPannelTwoGreenCircle.SetActive(true);
+                    ProgressTotal -= ReductionAmount;
+                    ChoseKey();
+                }
+                else
+                {
+                    //EggPannelTwoGreenCircle.SetActive(false);
+                }
+
             }
             else
-            {
+            { 
                 EggPannelTwoGreenCircle.SetActive(false);
             }
         }
@@ -93,7 +120,7 @@ public class TheEgg : MonoBehaviour
     }
     void ChoseKey()
     {
-        ChosenKey = RandomKeys[Random.Range(0, 2)];
+        ChosenKey = RandomKeys[Random.Range(0, 3)];
     }
 
     void IncreaseEggDifficulty()
