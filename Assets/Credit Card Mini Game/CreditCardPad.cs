@@ -31,7 +31,6 @@ public class CreditCardPad : MonoBehaviour
             ValidateNumber();
             StartCoroutine(DisplayResult());
             ClearNumber();
-            checkingNumber = false;
         }
     }
 
@@ -45,6 +44,18 @@ public class CreditCardPad : MonoBehaviour
     public void EnterNumber(string number)
     {
         AddToNumberDisplay(number);
+    }
+
+    public void ClearAll()
+    {
+        ClearDisplay();
+        ClearNumber();
+    }
+
+    public void Backspace()
+    {
+        enteredNumber = enteredNumber.Remove(enteredNumber.Length - 1, 1);
+        numberDisplay.text = enteredNumber;
     }
 
     public void GenerateCreditCard()
@@ -101,5 +112,6 @@ public class CreditCardPad : MonoBehaviour
         yield return new WaitForSeconds(resultDisplayTime);
 
         numberDisplay.text = "";
+        checkingNumber = false;
     }
 }
