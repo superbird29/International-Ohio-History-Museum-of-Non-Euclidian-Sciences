@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     public float movementThreshold = 0.01f;
 
+    public AudioSource walking;
+
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
@@ -35,10 +37,16 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", true);
             animator.SetFloat("InputX", moveInput.x);
             animator.SetFloat("InputY", moveInput.y);
+
+            if (!walking.isPlaying)
+            {
+                walking.Play();
+            }
         }
         else
         {
             animator.SetBool("isWalking", false);
+            walking.Stop();
             animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
             animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
         }
