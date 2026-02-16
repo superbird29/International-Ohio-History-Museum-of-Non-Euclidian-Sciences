@@ -1,0 +1,7132 @@
+fileFormatVersion: 2
+guid: 98cacfd5cf0ed68438a0331e383bd631
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229d8adf4db7a264eb9438d7543526b2
+      internalID: 1338012749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ed605648c613048988501aaecec9c5
+      internalID: 1205414228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5e66b4c1d3a424da05c2b417ea464e
+      internalID: -1353442154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0bd31f162a21e4891b377205775d14
+      internalID: 523895756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d61ecedef5854da9f45473f463049
+      internalID: -447876142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf6153967223640aacf1d0d29965d5
+      internalID: 1166824317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2781c41864259464c859b5341b83a658
+      internalID: 1755913697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63e1c65fe707b74baf0f07449f6bbe6
+      internalID: 936506936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9efb91d4cd6384eb263a96f3585b07
+      internalID: -301006383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b899edf065ca4bb994743fc6e3b5e
+      internalID: 1044923987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e70387726cac2c4a8ed9b60917eb01a
+      internalID: -838699692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7787be2f789bf54090bfdcc91cd6255
+      internalID: -939064510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf93e9e78b163264ba1bb7e6126f3004
+      internalID: 412837649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aca0c011d38c44bb85909f10308663
+      internalID: -1870913591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a84ac570a551c4ba18a961190a51ae
+      internalID: -1415431412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cce82e55efd044a8415034052ecfad
+      internalID: 564167199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38328a010a795494c8430a183e072f2b
+      internalID: -845460600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5047ac0b84710504682fe737f7bd3b1d
+      internalID: -768771672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e9766345fe6844d93f939ad68ef011
+      internalID: 1966264173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb7cf4acac3f1c459c23e06fe0a6bba
+      internalID: 841845601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a668e02f666a41827e7cb906252b3
+      internalID: -753102216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e3d22d6699b7d4b91829ad03325b2a
+      internalID: -133833584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582c6c57f5aab54082c64a1fac300a1
+      internalID: 1456539117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2388a204eab3b3a4d96b3b7eb3ec39fc
+      internalID: 1677090318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa98da2a41e084999916eecbbc266c
+      internalID: -400619075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a65bd9e60f1949b1d2582d050528f
+      internalID: 1206787612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa241c81fc78b4c9559d3c516d327f
+      internalID: 1128471780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a54adfe6a15f439ccff5bf4904053
+      internalID: 1084883480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff1e92efae75cb42b8d09c86c33ad32
+      internalID: 1925032427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37de026cd9cce54badb13d78625d0a9
+      internalID: 767726765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161574a52999a44488dfe9652d876737
+      internalID: 1224502765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b5c92710e013242ac99a60247b760e
+      internalID: -1611313196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cffabf0ef26a241963b81ddf3d4a46
+      internalID: 566278802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d366289dcd226c1498ffc5f871dd6898
+      internalID: -2127976961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df1bc0e2c11e3d4ea5ace4918ccf09d
+      internalID: -1887420959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d224dd5403534eb8547eb37143119
+      internalID: 1038967769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965ff758955381d4f97fd7c7ef9f3796
+      internalID: 959595225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229b3a8eb2d5afe42b99c0897769e4b9
+      internalID: -1776417964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a662d5875e634bbaf6d2076299afd
+      internalID: -1682457834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e0125de3e86c44a51f5258742e986
+      internalID: -531573723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4036dfb5d5fc54c9e551e6722598ff
+      internalID: 396608673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bea72410fe6574486c0d9d51e450b7
+      internalID: -1546674629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01bba6d43d7f140b9f54c16b445fab
+      internalID: 1606237730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9721cb2453890c41b23e846953a27fd
+      internalID: 151916556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fafc8b6e590ab4bbe4466e392e8169
+      internalID: -981882446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb63d5174266c10458619b135690cf80
+      internalID: 1615296311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_46
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996fd5bcba643774e9bf3af9b5836032
+      internalID: -1277024333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669610b3b3e31dc49adc4ca8ce85e78c
+      internalID: -1661496780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e8b14ac8de7ad44b9b1cc6ac0cf8e6
+      internalID: 539547092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_49
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850c83b0f8407c140b73c9c85d696f8c
+      internalID: 1514801962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90182ee63faa944abdef65948c4a5d1
+      internalID: -359118138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895345ed57d654f439fbd13b31df381e
+      internalID: -1194409183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19fe3485c257074193bb610b1df8f9d
+      internalID: 910765285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b079cccbb28b474f8db2616e451ff30
+      internalID: 420031299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65345080a862073499e5ede62bbd0e1d
+      internalID: -677572725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b6e2fb5abca114aa8abc137e0c5466
+      internalID: -127648914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fddaf176fbf8664a851f835aac109d6
+      internalID: -1052282166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb9935e5717c3f4dac0f87e1717bf1b
+      internalID: -773308236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd37172879d0d41867f9882071ce90
+      internalID: 1046095527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab6a6c1bda7e245b9917015df592be
+      internalID: -1748868669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a83de75d216c64a82508efe81c1100
+      internalID: 1867909006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_61
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fceb481b6f28b8419c642e99c2e232e
+      internalID: 2101948916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e968266701ca32145aa26a15da54e015
+      internalID: -425328302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_63
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cd37835cf8358489d774028bd72a19
+      internalID: 199023679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_64
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1058
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f63a9a6391f9a4ba7ac8824cb59ff4
+      internalID: 492621415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8b4790688ef3746ae2a5a96ae06d2b
+      internalID: 1043553230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b891af61aa5d284898d15fcac8cb663
+      internalID: -1270915036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386c15a74125194080cc319acf22f10
+      internalID: -1424933487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ba9981cdc5844bbce603642d1e6b4
+      internalID: -1104465336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5978f6f93bb5aac4b8150f2ee1e6442d
+      internalID: -324566685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_70
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0f9e9a4fb8eb94982a2b89030007e0
+      internalID: 1368899065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_71
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e281f22e5103012448fb20534ceaca7a
+      internalID: 1272497219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_72
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85692e3c3c23f4081d25f571f35879
+      internalID: -800433577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc7c6b7a835a949a413df602250757
+      internalID: -1843736885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_74
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c258697032e5124eabf11eacec8f725
+      internalID: 387895410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a993b725965328a47987340db0810f1c
+      internalID: -1171262397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cf19035f0fcdf439f146691229a692
+      internalID: -1550856652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16f8a7bb1acb0a4fba0b21f9745e2df
+      internalID: -1457356296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d55674b70c4274c840349fa08f62ed
+      internalID: -284486381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f86e1ecd123dbf4abf5257cf39235e5
+      internalID: -2111263763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c92a66c98dffb45bff2051361827a1
+      internalID: 1373836114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c9e05cca12a7b41b37a3534f56266b
+      internalID: 56370629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3f239c6916207439e6c88dec0ccecb
+      internalID: 999927389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd889587c0f33143a573fa2112141c5
+      internalID: -1240691789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_84
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cafe1cfaafe8f4d8059eed837482fb
+      internalID: -1419069810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fbfd04fd7e7914fba8ae4b2a21a001
+      internalID: 1863162222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b78b710fa860db42952199b01ca9c38
+      internalID: -1080544824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_87
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a0e4623eeee047a4db78e37f43953
+      internalID: 1578561897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_88
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252605cc3ef4ac94dafcf3b6aaf2f385
+      internalID: 1839741074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_89
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dcc107f603d2d45a3e092629ac3c13
+      internalID: 392570101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6307d7e5355274fbcb11bfa4a9ed50
+      internalID: -733946575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2760973f97bd634fb24e9df7dc7b79b
+      internalID: 1649066937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a49ce3944ae0140908a4d86764a00a
+      internalID: -1499739990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aae987a547b3354e8cc3ed3d1a07ac9
+      internalID: 1698906905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_94
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b18fcd6611b9a24f9c0fab3329e2ad8
+      internalID: -377719753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_95
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dafb58b99024147b3ea8ee92e72d2f
+      internalID: 35914928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_96
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def151bf7cefe04a877368a83ad51df
+      internalID: 722065794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c6a25649e42de4ba6f374e74fdfd50
+      internalID: 1208459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_98
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb625813d53ac148b61bbae49c01104
+      internalID: -1881951025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_99
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 912
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461902794bd82704681922b03eadbf61
+      internalID: -788282483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bcbe61666b6c45a3dd73b39d88c01
+      internalID: -2091429983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea95826a403a8e7478fece505e938fa4
+      internalID: 1167341356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38e2cf7f7305954e9b932bc51b7024d
+      internalID: -1531064928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb47c92bfe6b843b3e11d1554d186e
+      internalID: -1460959412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9753856223852f6468ca32eeb725830c
+      internalID: 487265330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d93c82a3c5c4c41bc3ec2062ff55d0
+      internalID: 885246674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_106
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e2ced6388507449997d8443044de3d
+      internalID: -1390635622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_107
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5b52b0723fb4545b68e022158b46cf
+      internalID: 395163877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782fedc1aff425648ad09ef5080b5007
+      internalID: 1525532481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db15a58090c7b4a879bf334e1468ce
+      internalID: -788636398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4b1004de8d67748a71445728aed0e0
+      internalID: 1379641371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_111
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3819a32d3b69304f91635354858ad59
+      internalID: 1907106430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_112
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c305886e775f074fb77f82aff81cfaa
+      internalID: -1110076398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_113
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bfdb8afa09c3c4b863d4efc7e44f58
+      internalID: -1873379911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_114
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0e7322cc842f34784a736ff02c0a92
+      internalID: -1844280457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d745b9278a6a4eb90f13fa27b2785
+      internalID: 89572242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_116
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16701c9457f049348b177c987af1a7cb
+      internalID: -989436121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80437d7d76db56e4f8fc7ad5f5bda42d
+      internalID: -897768445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32caa49ddcb82439e612501d4e67ab
+      internalID: -98369680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a734812188cb5b42bd3192b59e9af7c
+      internalID: 1709787132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5327b2bfb00e2841a30474c854ed0f3
+      internalID: 5764475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_121
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0b6eab2c839aa4d8e4006a7acc3012
+      internalID: 983968366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_122
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c256539075baa9408594779ebd28e8e
+      internalID: -1728001753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_123
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc9edff49a32aa458b2720e0d6c1848
+      internalID: 1886749461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_124
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a9233f5a3bbf48abc0f8700cbdee1
+      internalID: -147372873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e54340465872a49af54ca10413d827
+      internalID: -1655584689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06657d27fef498d4297cb95f8f9aeb59
+      internalID: -341580059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac49f7ef11af34e854c345073ce27c
+      internalID: 691006782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_128
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cf8ca21e38e034db07980df51c8f93
+      internalID: -251320310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_129
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63f27ad6a85674e9c3d48ec8ab0ffe
+      internalID: -1034292859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_130
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41866299734396409f157ee46f5afbb
+      internalID: 1775321124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_131
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df586e47fd412a84b807312fba808502
+      internalID: -1950479446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_132
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51518ca011fb79148b39ce68efa44814
+      internalID: -524831962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68fb719910c9b04c93796d3016622bc
+      internalID: -803490356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_134
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775f93017bd22004eac849ec87abf73f
+      internalID: 1347145282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_135
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7993ed000d6624d4b9675d0cbd3d5f15
+      internalID: -1786861169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_136
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9a391e11b42644a9881e7b98be96c
+      internalID: -167856190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbff259bd1b94c4a92e3ae32082fc04
+      internalID: 984419045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_138
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d564a1cfab58d24c85e6cdbeb3b0149
+      internalID: 140754445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_139
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 768
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f281f159af7efca488595a746739320a
+      internalID: 1825884191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f73172e94f34841a4b84385a2c2a09
+      internalID: 1719156855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_141
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d67fcdfe6fe049b2753c7a64b19f0
+      internalID: -473030352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_142
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e3e7f788eb14d4282448a5057a8b46
+      internalID: 1378362677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529e6e61f37d3ff458d754ac482ee5e1
+      internalID: -741002141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_144
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3843727710c04892a938d3e76fb2c
+      internalID: -205529187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62adf4b45a17941b928105c03c44ba
+      internalID: 18954477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_146
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782446b6173f9e34d860b7f9e1d731af
+      internalID: -231751811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_147
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a6dbc10c600954fb7284d8528d34a4
+      internalID: 1806336724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_148
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c58b327f747aa48925beb4d6edba8c
+      internalID: -1050757297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_149
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e206167f8ec4c47b14b9017a5e874a
+      internalID: -754402438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4601b28f9b28215498015fe6550cb466
+      internalID: -613505387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbc948736d2268499dc6272be69fff0
+      internalID: -181429123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_152
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19599fede55f4234a8eae5bd9618d596
+      internalID: -1294784480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3babc7afcda44b9904c7b94888050
+      internalID: 782873487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c01ba6ef060d49b1c487b3e15b4d0
+      internalID: -1950676144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d0e0e4ec5c6804da05d47a6dfa5c07
+      internalID: 2104206913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_156
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fbb2d96c3d3b749b64c39a546fa9ce
+      internalID: 83047819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_157
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91946a371f236f43b0b72278f30345c
+      internalID: -2078600925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_158
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99de4311a5962154e9876402c1d4a875
+      internalID: 1908282549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_159
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51952856e4096945aa161dee06c6460
+      internalID: -1906748477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_160
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5630900cea9923468d96b9703a1b7a0
+      internalID: 463298139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_161
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca9869224b14e4caa333c2f1fcf8e9
+      internalID: 1126850533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_162
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a8ac6c977df949a6422be4e5a200c
+      internalID: -757082716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_163
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504521ce43da7fe42ac2359811cca937
+      internalID: -2059629146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_164
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bbd140e9e4c45438cb2b3ecc2a14a7
+      internalID: 596121942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20550ea81db35f24da7839cc90f57ee3
+      internalID: -1958643981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e29b1c26fe5bf469ae8df0632c8d05
+      internalID: -1033417162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_167
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026db57f9468a8040b00b6e68f303faa
+      internalID: -1986155815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_168
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e4eb4918af7ff4784ce659300a00d9
+      internalID: -1086000802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_169
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2972b767ff7efc4d9f4304474a1544d
+      internalID: -330867272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_170
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04975616346a7434da53d6869c5f4875
+      internalID: 1534609227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_171
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ab8e564bfcde240a3551f6b8a70595
+      internalID: -1494672369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_172
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bef93d248be3714b943402a868c0d22
+      internalID: -1865716202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_173
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a77d9cf7951b4c8166cab9eb55330
+      internalID: -757087956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_174
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02f85590e31fbe49a4c172d9e358782
+      internalID: -135264661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828ffdfd2d2cb304dbea7ff1db55e119
+      internalID: -1861553442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_176
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4666a838335e01c4abb4d0d578aa28f2
+      internalID: -1606948662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_177
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a77afe1785ee94a94a06c0d8c239ee
+      internalID: 136318690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_178
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ebcf104f95f284c8a08d9dfe60c50b
+      internalID: -1571801687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248e93fb53c03846a16a394c1b098aa
+      internalID: 259951937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_180
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c0a755034403047a4d3ccb9f8b38ee
+      internalID: 464881588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_181
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7245695fc869f14e882e0cc33d20948
+      internalID: -1141019028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_182
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fdc10070a570844bb3e251f1f62fc5
+      internalID: -1629000884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_183
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd014a9c6845f6f4abea6cf553d9e666
+      internalID: -729648422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_184
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c2f7912f579cd4b9efa5fe05c7a472
+      internalID: -655444892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da8ef63f8e5f441b6decae9ba74725
+      internalID: 1927048563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_186
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255faf7284a30fa45a8cf1ca6547a9ef
+      internalID: -1093336059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_187
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d568a459dc7629d4c8ccb20eab9b9cb1
+      internalID: -1709086862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_188
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f9355e357c26041be8c25785551235
+      internalID: -1260291017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_189
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3be4e12d885094190fd1aa92d4199f
+      internalID: -210639309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b4335ceedd1bd4f931db5380ecf0a9
+      internalID: 911893401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1190fc4ba08e9aa45b65c40f664e4cb9
+      internalID: -1359980384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_192
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9160bc901368b4a8aa306489d301ae
+      internalID: 987906392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_193
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dee55c3db3dead4a870732d18ccba1d
+      internalID: -793623867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_194
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a99dc6d7df169947a06900c703ed3a0
+      internalID: 197694087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_195
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266bcc942e2fb2347b85c8b862b8e059
+      internalID: 1151925989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_196
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2129212fadf924eae17e82281efee8
+      internalID: 1902956966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_197
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2939125a1dc81c24b8d48c1f510a3280
+      internalID: 561465073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_198
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981be31660aade41af8ab15901ef2ae
+      internalID: -1042828245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_199
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d475397e7c1339a409c77abcc586b372
+      internalID: 677227730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c856a293796ef94582546c83ed84b34
+      internalID: 699622538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_201
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b8ae8148e3b244697c5aa5e0e7682f
+      internalID: 1948880055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff595984adc9ecd4f83951bd0789e8be
+      internalID: 90335138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_203
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81f8f633d72dcd4d8df7f1aafe71a59
+      internalID: 1777358295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc973772606979c4b93f060844d65e35
+      internalID: -614353134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_205
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1a8f7aabfb37409ac35f0f80980df
+      internalID: 225008006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_206
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc811587edc710e4e885f14fb8551770
+      internalID: 1027050944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_207
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020b19f18cdb6274ab4c5471d6a8be38
+      internalID: -1691474393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_208
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db3faaf23cf7a940aab7ebe0bbea4a5
+      internalID: 729931607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_209
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0715871859995f349a8f957dcf3844f8
+      internalID: -1598317100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_210
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e65221875eac245ae660c0d2aef1ef
+      internalID: -533637385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_211
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c352b6ceaa854d908ba4e71e00e31
+      internalID: -1555786282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e8a42712607494493655d4d36eaf75
+      internalID: -1709813273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_213
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cec2d4d4617b749bffb3b1e141513e
+      internalID: 706419277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_214
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f2068b92deb54ab900d7f7615b2d3
+      internalID: -68527353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_215
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec988cc86ea91f43b2dbd8e4163a18f
+      internalID: -236051993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_216
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba930e48fa8a45d4aa5997926016ba05
+      internalID: 1749905188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_217
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220c80b293750f342954d1f26996f707
+      internalID: 1789323815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_218
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed9b6b9c8ea709458ea5159752a306a
+      internalID: -59902771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_219
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38fd9660177a034bafc856124803a3b
+      internalID: 740689982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2e3e9ad9028749b66f0e4288ee46a
+      internalID: 1419636735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_221
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b4b1b57d590d447bc7231571001f53
+      internalID: 1359637294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2e6d86f685764e92c61fd717aff9e
+      internalID: -869607272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_223
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eabf9898cb55c4591a11a35d03a339
+      internalID: 841242467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf30a811f2c8ec24db964301fffdfb05
+      internalID: -1668617331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_225
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8241a2a45644f499a19a3ba343ea42
+      internalID: -1616272399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_226
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893ea38836cb0134ab7e16501210ba15
+      internalID: -250343872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_227
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47af8927dc8155446ad12563b8524663
+      internalID: 1005401500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_228
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fff2542aad9fc439b822914d5d908a
+      internalID: -1575754069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_229
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1432d31cc572846b94d67c5cc2f2ef
+      internalID: 823229598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_230
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a6349789d7034287733a93ad7dd1b
+      internalID: -609277379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_231
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2992437f361f04cb7e506270efcbbe
+      internalID: -1046536242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_232
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd682eed1f9dee49baec90547214867
+      internalID: -465253738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_233
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c6dfe0cb63f549af017908b6e8a64
+      internalID: -1568001528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_234
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c2a7632feef894e8fe8d2550673d2c
+      internalID: 894333697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_235
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242140bc1d21b294f8fe54a7a1a11bb9
+      internalID: 745430042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14b0d9f1fce0b545bb8a686beff58fc
+      internalID: 1320791276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_237
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dfaa5ca6454c24b8d78764b0dee109
+      internalID: -1030455364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_238
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9213e2afadd71a46996360ca580029e
+      internalID: 759466376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_239
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a826398e01ddee4e9d316c509d3854c
+      internalID: 1351322717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_240
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0909fa3df1603ec4dafa36b428bb43f9
+      internalID: 2125192404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_241
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa84386a9dfb60444b6177754515bb09
+      internalID: 1313052763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_242
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04108ad6d979cd34a8f81c0def67a8d7
+      internalID: -989453335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_243
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55aedc4881fb27948b786d6e22333b14
+      internalID: -757483253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_244
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfbc22262f617344aab0aed455cbc16
+      internalID: 1613241887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_245
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8ab4014c919cc4e9c81f6d4e1dc55c
+      internalID: 2106011112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_246
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc08e4f00daa4145ba6a7e0d4c297c9
+      internalID: 1157589076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edff1208e057d54a95aab3da6105886
+      internalID: -842647691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_248
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d365ae703e24a574787abc98c7e3c3f3
+      internalID: 1156805325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_249
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a8350aa4b37f1418fbc18a34051e70
+      internalID: 1725715230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_250
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fbb50e047f31a429485056840c083f
+      internalID: -319597974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_251
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebc5428e89fb324781063f0a576dd4f
+      internalID: -1840032818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_252
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18062454d852da04f982eb56f17d151c
+      internalID: -206791668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_253
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff880deabedfb6240958a3c924db492a
+      internalID: -87806134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_254
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e52263d8ede944aa389db9cfcfbdf7
+      internalID: 1976350120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_255
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29883041e38e1409bd2f1007d72d7f
+      internalID: 1857919410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_256
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6968dcb0e7072674cb8dac6af34b1332
+      internalID: -186030573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_257
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed64a2dce5b27724d94376b6222c9cd2
+      internalID: 1629369283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_258
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20a30e1c52cb9946a2ca86a41ab8e76
+      internalID: 1386476805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_259
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f3fd2cb8995e3478cd008065c83838
+      internalID: 236017390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_260
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b773466147f1141b2e943263e4b962
+      internalID: 1328357663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_261
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62939e76ba86e674da47fa6e4a3e4210
+      internalID: -2145532136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_262
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66035e0b85bf4f49b6ff9a5180f3aa1
+      internalID: -1893847096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_263
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2618ae1e6bdc4980bc80853a34fa3
+      internalID: -1867821131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_264
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b35e20a60e50c4b9986adc2e11f5cf
+      internalID: 1242800261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_265
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2357ba602c15c09478d39f717b32da4a
+      internalID: 1636698196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_266
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48af6e7d071d6d54d833dbf68d092ed3
+      internalID: -1587677059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_267
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee56025f444b540940cc5efe7ca8a3
+      internalID: -736482842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_268
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc2ec1ec316c344ba6b8b2309b9b9a
+      internalID: -507380661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_269
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b8659398b57be499f635bbfcaceb26
+      internalID: -896761669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_270
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f07db1bec2ec94883b096b59a3348f
+      internalID: -140385883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_271
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14382388091346d45b0c864134680358
+      internalID: 1964717407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_272
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab6fa8c3d7e1a468d2549548fa71dc
+      internalID: 996641053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_273
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd51f09750cc1f40a784aa3eec9811a
+      internalID: 1621807551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_274
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b879518267cc1c3458f5088ae9fd1467
+      internalID: -2016858946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_275
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5cf37e90787cc47b1927c1f5ddec9e
+      internalID: -106386816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_276
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea9861c6a59ef448a0adcb5de55040c
+      internalID: -177150589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_277
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7992a5014626a794ea71ec1979eda19b
+      internalID: 188778334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_278
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007b55dab9996384c82eb40efaf1a56b
+      internalID: 526172312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_279
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8259741381af93a45a9d8f86f930b29a
+      internalID: -820541714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76b911914b1bc34a838ee370cc29440
+      internalID: -2125389959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_281
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8144fa665193c438a739c9288a894e
+      internalID: -2020529303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_282
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec957458ba90cb242b802159ebde05dd
+      internalID: -113036879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_283
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e01159b48a58d4cbe46a115d12b460
+      internalID: -1731526234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_284
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bde588408faf24b8bd76b333981bde
+      internalID: 952715017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_285
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a209f7a89411447b25396368dfb6ef
+      internalID: 1120692856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_286
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29893414e658a0c4da5fe75199c6c306
+      internalID: -67009060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_287
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175fa1ed94436544f80ab81108c4f8c6
+      internalID: 1341430895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_288
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f435f62175f1ae147b4bac76a8cb896a
+      internalID: 121465053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_289
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b4f0500dd7e04469830584575be56e
+      internalID: 62677162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_290
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa73291f6ead1294188cea45c3485273
+      internalID: -106871603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_291
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fdc199345cd494e87b035320fc210b
+      internalID: -379347777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_292
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bc0c557da255a4c9672c3a47f56be7
+      internalID: 1871660853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_293
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0efba1d6a46a8e40a915b7b11923723
+      internalID: -449405279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_294
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b967e4d58f5f93a44a12de61a83371f0
+      internalID: 1460035801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_295
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c3be5c373b094994cf17f9c193ab9
+      internalID: 1227431859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_296
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41324f7337b01046b479505a05aa7a0
+      internalID: 1217195329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_297
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0709a71029dde0240bd92f1b6a169cc0
+      internalID: -1838799580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_298
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c46d3d4e39f5f40917faf9a123bac5
+      internalID: -616617727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_299
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a44742f2713bf4cb314529654b4dc4
+      internalID: 495054836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_300
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07ec26706c9e644ca509598394dea5c
+      internalID: -816884228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_301
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f1db0f861cbad40a33c81d3fba4bc9
+      internalID: 1965100619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_302
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae630624e7739a944bafeb44dbd00268
+      internalID: 1416717253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_303
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b33c4a6643e4d42a09a70cee053fcf
+      internalID: 1319873497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_304
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d8a9002f789cc49bc72c01ab87f062
+      internalID: 1212172779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_305
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ae8ab4cd01444f89bfa2cd0ba3129
+      internalID: -957270865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_306
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3965d8083fdd34092ff74f79c55888
+      internalID: -654989405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_307
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0172a19de89f8ea48b7cdb8f0155ea26
+      internalID: -1143328138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_308
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46163aa80a6e92e47b03dac9d10e4c5c
+      internalID: -604422934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_309
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca758629699ecb439ab708e8843d53f
+      internalID: 1452208059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_310
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7ccc25cbaeca14c9f6aa7c41bd3474
+      internalID: 1869863670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_311
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302602ce3f727834e9354617817431dd
+      internalID: 1190646026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_312
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eb560a21730be44ab4bf7165738959
+      internalID: -1702037478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_313
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92b2734ab2012d42ad6ba9db1092344
+      internalID: -13159347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_314
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac7d0c09dd2f9f4a85bea794ad835fd
+      internalID: 1265012858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_315
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63483e0322cc2f4197cc7828261c269
+      internalID: -95209279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_316
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8fd0081081f764c9357acc4e48a42e
+      internalID: -1412272305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_317
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15daf9bd59375d84f99408d96a0c1cda
+      internalID: -859036755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_Visibile_Upstairs_System_Black_Shadow_48x48_318
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f1c2c5f184dba48aaae1bebbf0df00
+      internalID: -2114156060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_0: 1338012749
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_1: 1205414228
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_10: -838699692
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_100: -2091429983
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_101: 1167341356
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_102: -1531064928
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_103: -1460959412
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_104: 487265330
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_105: 885246674
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_106: -1390635622
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_107: 395163877
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_108: 1525532481
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_109: -788636398
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_11: -939064510
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_110: 1379641371
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_111: 1907106430
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_112: -1110076398
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_113: -1873379911
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_114: -1844280457
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_115: 89572242
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_116: -989436121
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_117: -897768445
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_118: -98369680
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_119: 1709787132
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_12: 412837649
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_120: 5764475
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_121: 983968366
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_122: -1728001753
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_123: 1886749461
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_124: -147372873
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_125: -1655584689
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_126: -341580059
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_127: 691006782
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_128: -251320310
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_129: -1034292859
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_13: -1870913591
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_130: 1775321124
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_131: -1950479446
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_132: -524831962
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_133: -803490356
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_134: 1347145282
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_135: -1786861169
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_136: -167856190
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_137: 984419045
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_138: 140754445
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_139: 1825884191
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_14: -1415431412
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_140: 1719156855
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_141: -473030352
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_142: 1378362677
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_143: -741002141
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_144: -205529187
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_145: 18954477
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_146: -231751811
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_147: 1806336724
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_148: -1050757297
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_149: -754402438
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_15: 564167199
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_150: -613505387
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_151: -181429123
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_152: -1294784480
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_153: 782873487
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_154: -1950676144
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_155: 2104206913
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_156: 83047819
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_157: -2078600925
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_158: 1908282549
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_159: -1906748477
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_16: -845460600
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_160: 463298139
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_161: 1126850533
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_162: -757082716
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_163: -2059629146
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_164: 596121942
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_165: -1958643981
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_166: -1033417162
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_167: -1986155815
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_168: -1086000802
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_169: -330867272
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_17: -768771672
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_170: 1534609227
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_171: -1494672369
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_172: -1865716202
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_173: -757087956
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_174: -135264661
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_175: -1861553442
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_176: -1606948662
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_177: 136318690
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_178: -1571801687
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_179: 259951937
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_18: 1966264173
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_180: 464881588
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_181: -1141019028
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_182: -1629000884
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_183: -729648422
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_184: -655444892
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_185: 1927048563
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_186: -1093336059
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_187: -1709086862
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_188: -1260291017
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_189: -210639309
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_19: 841845601
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_190: 911893401
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_191: -1359980384
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_192: 987906392
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_193: -793623867
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_194: 197694087
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_195: 1151925989
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_196: 1902956966
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_197: 561465073
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_198: -1042828245
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_199: 677227730
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_2: -1353442154
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_20: -753102216
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_200: 699622538
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_201: 1948880055
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_202: 90335138
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_203: 1777358295
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_204: -614353134
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_205: 225008006
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_206: 1027050944
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_207: -1691474393
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_208: 729931607
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_209: -1598317100
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_21: -133833584
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_210: -533637385
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_211: -1555786282
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_212: -1709813273
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_213: 706419277
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_214: -68527353
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_215: -236051993
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_216: 1749905188
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_217: 1789323815
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_218: -59902771
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_219: 740689982
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_22: 1456539117
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_220: 1419636735
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_221: 1359637294
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_222: -869607272
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_223: 841242467
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_224: -1668617331
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_225: -1616272399
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_226: -250343872
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_227: 1005401500
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_228: -1575754069
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_229: 823229598
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_23: 1677090318
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_230: -609277379
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_231: -1046536242
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_232: -465253738
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_233: -1568001528
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_234: 894333697
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_235: 745430042
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_236: 1320791276
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_237: -1030455364
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_238: 759466376
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_239: 1351322717
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_24: -400619075
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_240: 2125192404
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_241: 1313052763
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_242: -989453335
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_243: -757483253
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_244: 1613241887
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_245: 2106011112
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_246: 1157589076
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_247: -842647691
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_248: 1156805325
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_249: 1725715230
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_25: 1206787612
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_250: -319597974
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_251: -1840032818
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_252: -206791668
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_253: -87806134
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_254: 1976350120
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_255: 1857919410
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_256: -186030573
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_257: 1629369283
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_258: 1386476805
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_259: 236017390
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_26: 1128471780
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_260: 1328357663
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_261: -2145532136
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_262: -1893847096
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_263: -1867821131
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_264: 1242800261
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_265: 1636698196
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_266: -1587677059
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_267: -736482842
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_268: -507380661
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_269: -896761669
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_27: 1084883480
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_270: -140385883
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_271: 1964717407
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_272: 996641053
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_273: 1621807551
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_274: -2016858946
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_275: -106386816
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_276: -177150589
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_277: 188778334
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_278: 526172312
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_279: -820541714
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_28: 1925032427
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_280: -2125389959
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_281: -2020529303
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_282: -113036879
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_283: -1731526234
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_284: 952715017
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_285: 1120692856
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_286: -67009060
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_287: 1341430895
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_288: 121465053
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_289: 62677162
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_29: 767726765
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_290: -106871603
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_291: -379347777
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_292: 1871660853
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_293: -449405279
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_294: 1460035801
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_295: 1227431859
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_296: 1217195329
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_297: -1838799580
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_298: -616617727
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_299: 495054836
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_3: 523895756
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_30: 1224502765
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_300: -816884228
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_301: 1965100619
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_302: 1416717253
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_303: 1319873497
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_304: 1212172779
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_305: -957270865
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_306: -654989405
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_307: -1143328138
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_308: -604422934
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_309: 1452208059
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_31: -1611313196
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_310: 1869863670
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_311: 1190646026
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_312: -1702037478
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_313: -13159347
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_314: 1265012858
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_315: -95209279
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_316: -1412272305
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_317: -859036755
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_318: -2114156060
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_32: 566278802
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_33: -2127976961
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_34: -1887420959
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_35: 1038967769
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_36: 959595225
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_37: -1776417964
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_38: -1682457834
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_39: -531573723
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_4: -447876142
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_40: 396608673
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_41: -1546674629
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_42: 1606237730
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_43: 151916556
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_44: -981882446
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_45: 1615296311
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_46: -1277024333
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_47: -1661496780
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_48: 539547092
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_49: 1514801962
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_5: 1166824317
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_50: -359118138
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_51: -1194409183
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_52: 910765285
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_53: 420031299
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_54: -677572725
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_55: -127648914
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_56: -1052282166
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_57: -773308236
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_58: 1046095527
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_59: -1748868669
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_6: 1755913697
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_60: 1867909006
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_61: 2101948916
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_62: -425328302
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_63: 199023679
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_64: 492621415
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_65: 1043553230
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_66: -1270915036
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_67: -1424933487
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_68: -1104465336
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_69: -324566685
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_7: 936506936
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_70: 1368899065
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_71: 1272497219
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_72: -800433577
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_73: -1843736885
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_74: 387895410
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_75: -1171262397
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_76: -1550856652
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_77: -1457356296
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_78: -284486381
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_79: -2111263763
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_8: -301006383
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_80: 1373836114
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_81: 56370629
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_82: 999927389
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_83: -1240691789
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_84: -1419069810
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_85: 1863162222
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_86: -1080544824
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_87: 1578561897
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_88: 1839741074
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_89: 392570101
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_9: 1044923987
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_90: -733946575
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_91: 1649066937
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_92: -1499739990
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_93: 1698906905
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_94: -377719753
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_95: 35914928
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_96: 722065794
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_97: 1208459
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_98: -1881951025
+      17_Visibile_Upstairs_System_Black_Shadow_48x48_99: -788282483
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
