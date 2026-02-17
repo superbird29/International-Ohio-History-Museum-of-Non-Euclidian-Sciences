@@ -19,7 +19,6 @@ public class EggManager : MonoBehaviour
     //Egg Challange Vars
     [SerializeField] List<GameObject> EggPannel; //list of egg pannels
     [SerializeField] List<char> RandomKeys;
-    [SerializeField] bool KeyChosen = false;
     [SerializeField] GameObject EggPannelOneGreenCircle;
     [SerializeField] GameObject EggPannelTwoGreenCircle;
     [SerializeField] bool ReductionActive = false;
