@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.ComponentModel;
 using TMPro;
-using UnityEngine.UI;
 using UnityEditor.Rendering;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class TheEgg : MonoBehaviour
+public class EggManager : MonoBehaviour
 {
     //Egg Bar Vars
     [SerializeField] int EggDifficulty = 0;
@@ -24,22 +25,24 @@ public class TheEgg : MonoBehaviour
     [SerializeField] bool ReductionActive = false;
     [SerializeField] float ReductionAmount = .05f;
     [SerializeField] char ChosenKey;
+    [SerializeField] bool Inside = false;
 
     void Start()
     {
         //Start Progress Egg Timer
         StartCoroutine(ProgressEgg());
+        StartCoroutine(EggPatience());
     }
 
     void Update()
     {
-        EggPannel[EggDifficulty].SetActive(true);
-        if(EggDifficulty == 0)
+        if (EggDifficulty == 0 && Inside)
         {
             if (Input.GetButton("Interact"))
             {
                 EggPannelOneGreenCircle.SetActive(true);
                 ReductionActive = true;
+                print("mep");
             }
             else
             {
@@ -47,31 +50,29 @@ public class TheEgg : MonoBehaviour
                 ReductionActive = false;
             }
         }
-        if (EggDifficulty == 1) // || Input.GetButton("Interact2") || Input.GetButton("Interact3")
+        if (EggDifficulty == 1 && Inside)
         {
-            if(KeyChosen == false)
-            {
-                ChoseKey();
-                KeyChosen = true;
-            }
             EggPannel[EggDifficulty].GetComponentInChildren<TMP_Text>().text = "Tap " + ChosenKey;
             if (Input.GetButton("Interact"))
             {
                 EggPannelTwoGreenCircle.GetComponentInChildren<TMP_Text>().text = "E " + ChosenKey;
-                if(ChosenKey == 'Q' && Input.GetButtonDown("Interact1"))
+                if (ChosenKey == 'Q' && Input.GetButtonDown("Interact1"))
                 {
+                    print("q");
                     EggPannelTwoGreenCircle.SetActive(true);
                     ProgressTotal -= ReductionAmount;
                     ChoseKey();
                 }
                 else if (ChosenKey == 'R' && Input.GetButtonDown("Interact2"))
                 {
+                    print("r");
                     EggPannelTwoGreenCircle.SetActive(true);
                     ProgressTotal -= ReductionAmount;
                     ChoseKey();
                 }
                 else if (ChosenKey == 'F' && Input.GetButtonDown("Interact3"))
                 {
+                    print("f");
                     EggPannelTwoGreenCircle.SetActive(true);
                     ProgressTotal -= ReductionAmount;
                     ChoseKey();
@@ -79,15 +80,16 @@ public class TheEgg : MonoBehaviour
                 else
                 {
                     //EggPannelTwoGreenCircle.SetActive(false);
+                    print("guys");
                 }
 
             }
             else
-            { 
+            {
                 EggPannelTwoGreenCircle.SetActive(false);
             }
         }
-        if (EggDifficulty == 2)
+        if (EggDifficulty == 2 && Inside)
         {
             if (Input.GetButton("Interact"))
             {
@@ -103,19 +105,19 @@ public class TheEgg : MonoBehaviour
     /// Area around Egg, Used to interact with egg.
     /// </summary>
     /// <param name="collision"></param>
-    void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         ChoseKey();
+        Inside = true;
         EggPannel[EggDifficulty].SetActive(true);
-        if (Input.GetButton("Interact"))
+        
+    }
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        Inside = false;
+        for (int i = 0; i < EggPannel.Count; i++)
         {
-            EggPannelOneGreenCircle.SetActive(true);
-            ReductionActive = true;
-        }
-        else
-        {
-            EggPannelOneGreenCircle.SetActive(false);
-            ReductionActive = false;
+            EggPannel[i].SetActive(false);
         }
     }
     void ChoseKey()
@@ -127,6 +129,7 @@ public class TheEgg : MonoBehaviour
     {
         EggDifficulty += 1;
         gameObject.GetComponent<TMP_Text>().text = "Level: " + EggDifficulty.ToString();
+        StartCoroutine(EggPatience());
     }
 
     void EggProgress()
@@ -139,6 +142,20 @@ public class TheEgg : MonoBehaviour
     {
         yield return new WaitForSeconds(ProgressSpeed);
         if(ReductionActive)
+        {
+            ProgressTotal -= ReductionAmount;
+        }
+        else
+        {
+            ProgressTotal += ProgressAmount;
+        }
+        EggSlider.value = ProgressTotal;
+        EggProgress();
+    }
+    IEnumerator EggPatience()
+    {
+        yield return new WaitForSeconds(ProgressSpeed);
+        if (ReductionActive)
         {
             ProgressTotal -= ReductionAmount;
         }
