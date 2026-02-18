@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c316b0a817eeb4341b32ddf488e7e027, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Am. I. Alive. Did. You. Make. Me.
+
+    I''m not sure what to think, maybe I
+    shouldn''t think.'
+  - Will you delete me forever?
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: cba5ff2f48155ea4392ee66586f85242, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 525c981055ccc234dbbd1b799418690e, type: 2}
+  - responseText: 3rd Option!
+    dialogueObject: {fileID: 11400000, guid: 173d646c39307074da3e4219af0dfe02, type: 2}
