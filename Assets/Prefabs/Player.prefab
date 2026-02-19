@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78bb0c032f12d974194ed967338ca2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueUI: {fileID: 0}
+  dialogueUI: {fileID: 5023803446858010874, guid: a681158b650b44c4783423adfb6d383b, type: 3}
   movementSpeed: 8
   rb2d: {fileID: 6188969058542795795}
   movementThreshold: 0.01
