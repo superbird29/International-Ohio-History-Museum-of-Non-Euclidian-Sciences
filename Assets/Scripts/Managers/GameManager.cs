@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public EggManager _eggManager;
+    public Player _player;
 
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();

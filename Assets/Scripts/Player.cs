@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     public DialogueUI DialogueUI => dialogueUI;
     public IInteractable Interactable { get; set; }
 
+    //GiftShop Stuff
+    public ResourceBox CarryObject;
+
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
