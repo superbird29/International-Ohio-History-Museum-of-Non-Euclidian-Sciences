@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpecialOrder : MonoBehaviour
+public class GiftShopOderManager : MonoBehaviour
 {
-    /// <summary>
-    /// Called when an npc wants to trigger an order
-    /// </summary>
     public void Order()
     {
         //GenerateGiftOrder()
     }
+
+    //Order comes in
+    //player grabs items
+    //Player Makes item 
+    //player delivers items
+
 }

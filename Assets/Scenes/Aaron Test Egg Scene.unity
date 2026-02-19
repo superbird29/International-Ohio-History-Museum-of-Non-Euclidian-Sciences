@@ -1314,7 +1314,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.43, y: 6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1357,7 +1357,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4.43, y: 6}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 4.43, y: 6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1388,7 +1388,6 @@ MonoBehaviour:
   - {fileID: 884202255}
   - {fileID: 1127764736}
   RandomKeys: 510052004600
-  KeyChosen: 0
   EggPannelOneGreenCircle: {fileID: 574151157}
   EggPannelTwoGreenCircle: {fileID: 426999428}
   ReductionActive: 0
