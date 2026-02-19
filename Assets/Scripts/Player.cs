@@ -4,8 +4,10 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
+    [SerializeField] private DialogueUI dialogueUI;
+
     public float movementSpeed;
     public Rigidbody2D rb2d;
     private Vector2 moveInput;
@@ -13,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     public float movementThreshold = 0.01f;
 
     public AudioSource walking;
+        
+    public DialogueUI DialogueUI => dialogueUI;
+    public IInteractable Interactable { get; set; }
 
     private void Start()
     {
@@ -21,10 +26,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        moveInput.x = Input.GetAxisRaw("Horizontal");
-        moveInput.y = Input.GetAxisRaw("Vertical");
 
-        moveInput.Normalize();
+       
+        //Does not allow any controls during dialogue, forcing the player to listen to the NPC
+        if (!dialogueUI.IsOpen)
+        {
+            moveInput.x = Input.GetAxisRaw("Horizontal");
+            moveInput.y = Input.GetAxisRaw("Vertical");
+
+            moveInput.Normalize();
+            if (Input.GetButton("Interact"))
+            {
+                Interactable?.Interact(this);
+            }
+        }
     }
 
 
