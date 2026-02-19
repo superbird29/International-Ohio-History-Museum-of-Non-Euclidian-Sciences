@@ -9,6 +9,7 @@ public enum JobType
         Tour
     }
 
+[CreateAssetMenu(fileName = "Job", menuName = "ScriptableObjects/New Job")]
 public class Job : ScriptableObject
 {
 
@@ -33,6 +34,11 @@ public class Job : ScriptableObject
             jobManager.FailJob(this);
             localJobManager.FailJob(this);
         }
+    }
+
+    public float GetTimeRemaining()
+    {
+        return timeRemaining;
     }
 
     public void CompleteJob()

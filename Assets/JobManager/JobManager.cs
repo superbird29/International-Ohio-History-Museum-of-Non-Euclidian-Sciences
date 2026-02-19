@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -9,7 +10,13 @@ public class JobManager : MonoBehaviour
     [SerializeField] LocalJobManager giftShopJobManager;
     [SerializeField] LocalJobManager tourGuidesJobManager;
 
-    public List<Job> jobQueue = new List<Job>();
+    [SerializeField] List<JobType> startingJobWeights;
+
+    private readonly List<JobType> lastTenJobs = new();
+
+    private bool spawningJob;
+
+    public List<Job> jobQueue = new();
 
     public float timeBetweenJobs = 60f;
 
@@ -20,6 +27,9 @@ public class JobManager : MonoBehaviour
     void Start()
     {
         timeUntilNextJob = timeBetweenJobs;
+        lastTenJobs.AddRange(startingJobWeights.GetRange(0,10));
+        jobQueue.ForEach(job => job.StartJob());
+        spawningJob = false;
     }
 
     // Update is called once per frame
@@ -27,11 +37,18 @@ public class JobManager : MonoBehaviour
     {
         jobQueue.ForEach(job => job.Tick(Time.deltaTime));
         timeUntilNextJob = timeUntilNextJob - Time.deltaTime;
-        if(timeUntilNextJob <= 0f && jobQueue.Count < 5)
+        if(timeUntilNextJob <= 0f && jobQueue.Count < 5 && !spawningJob)
         {
-            //Spawn Job
+            spawningJob = true;
+            SpawnJob();
             timeUntilNextJob = timeBetweenJobs;
+            spawningJob = false;
         }
+    }
+    
+    public List<Job> GetJobQueue()
+    {
+        return jobQueue;
     }
 
     public void FailJob(Job failedJob)
@@ -46,6 +63,30 @@ public class JobManager : MonoBehaviour
         RemoveJob(completedJob);
     }
 
+    private void SpawnJob()
+    {
+        if(jobQueue.Count() >= maxJobQueue) return;
+
+        Job newJob = new()
+        {
+            jobType = RollForJobType()
+        };
+        AddJob(newJob);
+        UpdateLastTenJobTypes(newJob.jobType);
+    }
+
+    private void UpdateLastTenJobTypes(JobType jobType)
+    {
+        lastTenJobs.Remove(0);
+        lastTenJobs.Add(jobType);
+    }
+
+    private JobType RollForJobType()
+    {
+        int result = Random.Range(0, 10);
+        return lastTenJobs[result] == JobType.Gift ? JobType.Ticket : JobType.Gift;
+    }
+
     public void AddJob(Job addedJob)
     {
         jobQueue.Add(addedJob);
@@ -54,17 +95,17 @@ public class JobManager : MonoBehaviour
         {
             case JobType.Gift:
             {
-                giftShopJobManager.AddJob(addedJob);
+                //giftShopJobManager.AddJob(addedJob);
                 break;
             }
             case JobType.Ticket:
             {
-                ticketCounterJobManager.AddJob(addedJob);
+                //ticketCounterJobManager.AddJob(addedJob);
                 break;
             }
             case JobType.Tour:
             {
-                tourGuidesJobManager.AddJob(addedJob);
+                //tourGuidesJobManager.AddJob(addedJob);
                 break;
             }
         }
