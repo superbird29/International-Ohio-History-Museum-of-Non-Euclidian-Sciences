@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour, IInteractable
 {
-    [SerializeField] private DialogueScriptableObject dialogueObject;
-
+    [SerializeField] public DialogueScriptableObject dialogueObject;
     public void UpdateDialogueObject(DialogueScriptableObject dialogueObject)
     {
         this.dialogueObject = dialogueObject;

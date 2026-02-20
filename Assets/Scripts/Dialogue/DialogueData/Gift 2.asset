@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c316b0a817eeb4341b32ddf488e7e027, type: 3}
-  m_Name: No
+  m_Name: Gift 2
   m_EditorClassIdentifier: 
   dialogue:
-  - You said No
-  responses: []
+  - One fairy in a bottle please!
+  - Is there BOGO for fairies? because ill get two!
+  responses:
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 25a185145ad1cb5499ae200fe698383c, type: 2}
