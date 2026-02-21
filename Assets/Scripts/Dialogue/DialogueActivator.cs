@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour, IInteractable
 {
-    [SerializeField] private DialogueScriptableObject dialogueObject;
+    [SerializeField] public DialogueScriptableObject dialogueObject;
 
     public void UpdateDialogueObject(DialogueScriptableObject dialogueObject)
     {
@@ -35,15 +35,23 @@ public class DialogueActivator : MonoBehaviour, IInteractable
 
     public void Interact(Player player)
     {
-        foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
+        NPCManager NPC = GetComponent<NPCManager>();
+
+        if (NPC.NPCState == "quest")
         {
-            if (responseEvents.DialogueScriptableObject == dialogueObject)
+            foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
             {
-                player.DialogueUI.AddResponseEvents(responseEvents.Events);
-                break;
+                if (responseEvents.DialogueScriptableObject == dialogueObject)
+                {
+                    player.DialogueUI.AddResponseEvents(responseEvents.Events);
+                    break;
+                }
             }
+
+            NPC.gaveQuest = true;
+        player.DialogueUI.ShowDialogue(dialogueObject);
         }
 
-        player.DialogueUI.ShowDialogue(dialogueObject);
+
     }   
 }

@@ -96,9 +96,11 @@ GameObject:
   - component: {fileID: -611671108273038372}
   - component: {fileID: 4742905378975512136}
   - component: {fileID: 2499073843437320330}
+  - component: {fileID: 122191876070853681}
+  - component: {fileID: 3873393770892527804}
   m_Layer: 0
   m_Name: TestNPC
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +114,7 @@ Transform:
   m_GameObject: {fileID: 8789000223089052836}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.1604924, y: -2.1295314, z: 0.7222159}
+  m_LocalPosition: {x: -5.1604924, y: -2.1295314, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -153,7 +155,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 0.8
 --- !u!114 &4742905378975512136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,19 +187,79 @@ MonoBehaviour:
     onPickedResponse:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4742905378975512136}
-          m_TargetAssemblyTypeName: DialogueActivator, Assembly-CSharp
-          m_MethodName: UpdateDialogueObject
-          m_Mode: 2
+        - m_Target: {fileID: 11400000, guid: cba5ff2f48155ea4392ee66586f85242, type: 2}
+          m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 173d646c39307074da3e4219af0dfe02, type: 2}
-            m_ObjectArgumentAssemblyTypeName: DialogueScriptableObject, Assembly-CSharp
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - name: No
+  - name: Fine
     onPickedResponse:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 525c981055ccc234dbbd1b799418690e, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &122191876070853681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789000223089052836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563ad32310e3420438a463a91cc7c046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueListTours:
+  - {fileID: 11400000, guid: dea66527208f45041ab53caa9a648da8, type: 2}
+  - {fileID: 11400000, guid: f6f8d9b328b987c4fa1854a84a2aa653, type: 2}
+  - {fileID: 11400000, guid: d0442928db45d5a44b46a455bf171d5d, type: 2}
+  DialogueListGifts:
+  - {fileID: 11400000, guid: 6ee8e006671689b41bc37af1df87c685, type: 2}
+  - {fileID: 11400000, guid: d9c1abc2aafd5f2408c8893406b11211, type: 2}
+  DialogueListCards:
+  - {fileID: 11400000, guid: 525c981055ccc234dbbd1b799418690e, type: 2}
+  - {fileID: 11400000, guid: b0f392941cc54e54da1e9308a7665773, type: 2}
+  TourLocations: []
+  WalkingPaths:
+  - {fileID: 5647889438274006156, guid: 9e9b0ecac2b657a44a6c7270546eb722, type: 3}
+  - {fileID: 5057623592880630450, guid: 4f28a755f032f50458db17e12a0ab847, type: 3}
+  - {fileID: 2238194857939423742, guid: 31605c05a66b8d643b4412dac6ee5123, type: 3}
+  NPCState: spawn
+  gaveQuest: 0
+  playerTarget: {fileID: 3762912461224370671, guid: 56306004faf55bb45835450804257eb5, type: 3}
+  followSpeed: 1
+--- !u!114 &3873393770892527804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789000223089052836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a9c787e5d1bbf48a389834c4a9641c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Path: {fileID: 5647889438274006156, guid: 9e9b0ecac2b657a44a6c7270546eb722, type: 3}
+  m_UpdateMethod: 0
+  m_PositionUnits: 1
+  m_Speed: 0
+  m_Position: 0

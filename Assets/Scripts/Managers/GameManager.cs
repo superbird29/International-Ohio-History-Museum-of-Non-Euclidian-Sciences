@@ -5,10 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public EggManager _eggManager;
+    public Player _player;
 
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();
     private static GameManager m_Instance;
+    public int Money;
     public static GameManager Instance
     {
         get
