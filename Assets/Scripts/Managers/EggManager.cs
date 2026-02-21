@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using TMPro;
 using UnityEditor.Animations;
-using UnityEditor.Rendering;
+//using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +26,7 @@ public class EggManager : MonoBehaviour
     [SerializeField] float ReductionAmount = .05f;
     [SerializeField] char ChosenKey;
     [SerializeField] bool Inside = false;
-    [SerializeField] List<AnimatorController> Animations;
+    [SerializeField] List<GameObject> Animations;
     [SerializeField] Animator Anim;
 
     void Start()
@@ -104,11 +104,15 @@ public class EggManager : MonoBehaviour
         }
         if(ProgressTotal <= .5f)
         {
-            Anim.runtimeAnimatorController = Animations[0];
+            print("over.5");
+            Animations[0].SetActive(true);
+            Animations[1].SetActive(false);
         }
         else
         {
-            Anim.runtimeAnimatorController = Animations[1];
+            print("under.5");
+            Animations[1].SetActive(true);
+            Animations[0].SetActive(false);
         }
     }
     /// <summary>
