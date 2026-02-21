@@ -2147,7 +2147,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 765219982}
     - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
+      propertyPath: ProgressAmount
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
       propertyPath: EggPannel.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
+      propertyPath: Animations.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
@@ -2166,6 +2174,14 @@ PrefabInstance:
       propertyPath: EggPannelTwoGreenCircle
       value: 
       objectReference: {fileID: 1598378016}
+    - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
+      propertyPath: Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 9100000, guid: 8d1f847d3ce4b7349bef1892f02cf3db, type: 2}
+    - target: {fileID: 3209007982931348723, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
+      propertyPath: Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 9100000, guid: 645d5cd201ad9844fb9955e2ccac0aff, type: 2}
     - target: {fileID: 3798599482532531726, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.25
@@ -2250,6 +2266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: THE EGG
       objectReference: {fileID: 0}
+    - target: {fileID: 9164195709226209912, guid: e46bd67ff7b8ff741a7b32e02a97ffbb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8d1f847d3ce4b7349bef1892f02cf3db, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

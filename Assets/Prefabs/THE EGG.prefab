@@ -239,6 +239,8 @@ MonoBehaviour:
   ReductionAmount: 0.05
   ChosenKey: 115
   Inside: 0
+  Animations: []
+  Anim: {fileID: 9164195709226209912}
 --- !u!95 &9164195709226209912
 Animator:
   serializedVersion: 5

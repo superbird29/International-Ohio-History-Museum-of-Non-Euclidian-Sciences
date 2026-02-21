@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5a7836d98c3bca749b6fcca2f1761fed
+guid: d794a404b33fd354c997fd655d65a84b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprEggLevel2_96x96_0
+      name: sprEggLevel2_96x96(1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,41 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7acf61a0e007a84d8741831c026aaed
-      internalID: 1657003460
+      spriteID: 794cff51969b83446b65aefe3fe35ba9
+      internalID: -369113585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprEggLevel2_96x96_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f0b65466f3fbbd4fb2903a73ec4955b
-      internalID: -1298417742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprEggLevel2_96x96_2
+      name: sprEggLevel2_96x96(1)_1
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,41 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61768598328c60846b7b789a6aa9a58c
-      internalID: -1990174139
+      spriteID: 4f98910841c7835438eb2d02ed59be14
+      internalID: -613468983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprEggLevel2_96x96_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ac800b77df3eb84f86df74b8cb1749e
-      internalID: -557404864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprEggLevel2_96x96_4
+      name: sprEggLevel2_96x96(1)_2
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
-        height: 48
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +166,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf145890347f6240a3048c87b9574b3
-      internalID: -1242512904
+      spriteID: 02a3742df9dbc5647a826a96060b03a1
+      internalID: 2105938532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprEggLevel2_96x96(1)_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3906ae6df456f24418fe9b463b08daa5
+      internalID: 1471079478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprEggLevel2_96x96(1)_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ed4a3723eb55147a284cda76c5f782
+      internalID: -1122546944
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprEggLevel2_96x96_0: 1657003460
-      sprEggLevel2_96x96_1: -1298417742
-      sprEggLevel2_96x96_2: -1990174139
-      sprEggLevel2_96x96_3: -557404864
-      sprEggLevel2_96x96_4: -1242512904
+      sprEggLevel2_96x96(1)_0: -369113585
+      sprEggLevel2_96x96(1)_1: -613468983
+      sprEggLevel2_96x96(1)_2: 2105938532
+      sprEggLevel2_96x96(1)_3: 1471079478
+      sprEggLevel2_96x96(1)_4: -1122546944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
