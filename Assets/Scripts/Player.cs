@@ -44,11 +44,8 @@ public class Player : MonoBehaviour
                 Interactable?.Interact(this);
             }
         }
-    }
 
 
-    void FixedUpdate()
-    {
         rb2d.velocity = moveInput * movementSpeed;
 
         if (rb2d.velocity.magnitude > movementThreshold)
@@ -71,5 +68,32 @@ public class Player : MonoBehaviour
         }
 
     }
-
 }
+
+
+/*    void FixedUpdate()
+    {
+        rb2d.velocity = moveInput * movementSpeed;
+
+        if (rb2d.velocity.magnitude > movementThreshold)
+        {
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", moveInput.x);
+            animator.SetFloat("InputY", moveInput.y);
+
+            if (!walking.isPlaying)
+            {
+                walking.Play();
+            }
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+            walking.Stop();
+            animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+            animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+        }
+
+    }*/
+
+//}
