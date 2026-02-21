@@ -13,15 +13,15 @@ public class NPCManager : MonoBehaviour
     public List<DialogueScriptableObject> DialogueListCards;
     public List<CinemachinePathBase> WalkingPaths;
 
-
-    private string NPCState = "spawn";
+    //NPC states are spawn, move, quest, 
+    public string NPCState = "spawn";
 
     public bool gaveQuest;
-
 
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
     private CinemachinePathBase chosenPath;
+    private float maxPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,7 @@ public class NPCManager : MonoBehaviour
         chosenPath = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
         walkingPath.m_Path = chosenPath;
+        maxPosition = walkingPath.m_Path.MaxPos;
         NPCState = "move";
     }
 
@@ -131,7 +132,11 @@ public class NPCManager : MonoBehaviour
     {
         if (NPCState == "move")
         {
-
+            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+            if (walkingPath.m_Position >= maxPosition)
+            {
+                NPCState = "quest";
+            }
         }
     }
 
