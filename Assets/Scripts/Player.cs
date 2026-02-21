@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     //GiftShop Stuff
     public ResourceBox CarryObject;
+    public GameObject CarryingObject;
 
     private void Start()
     {

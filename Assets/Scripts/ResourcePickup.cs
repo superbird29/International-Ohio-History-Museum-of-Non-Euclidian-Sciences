@@ -12,6 +12,7 @@ public class ResourcePickup : MonoBehaviour
         if (Input.GetButtonDown("Interact") && NearBox)
         {
             GameManager.Instance._player.CarryObject = Resource;
+            GameManager.Instance._player.CarryingObject.SetActive(true);
         }
     }
 

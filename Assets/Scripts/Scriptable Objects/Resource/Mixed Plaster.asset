@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d1ebb12a1a96bc4c971ea1957cd68f2, type: 3}
-  m_Name: Water
+  m_Name: Mixed Plaster
   m_EditorClassIdentifier: 
   Resource: {fileID: 0}
   Icon: {fileID: 0}
