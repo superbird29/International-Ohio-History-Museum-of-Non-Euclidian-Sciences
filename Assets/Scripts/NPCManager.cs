@@ -14,6 +14,11 @@ public class NPCManager : MonoBehaviour
     public List<GameObject> TourLocations;
     public List<CinemachinePathBase> WalkingPaths;
 
+    private Animator animator;
+    private Rigidbody2D rb;
+    public float moveX { get; private set; }
+    public float moveY { get; private set; }
+
     //NPC states are spawn, move, quest, 
     public string NPCState = "spawn";
 
@@ -49,8 +54,9 @@ public class NPCManager : MonoBehaviour
             chosenTour = GetRandomTour();
         }
 
-        //Store follow values for the tour quest
-     
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
+
     }
 
     public string GetRandomQuest()
@@ -157,9 +163,38 @@ public class NPCManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
+        Quaternion.Euler(0, 0, 0);
         if (NPCState == "move")
         {
+            
+            Vector2 velocity = rb.velocity;
+
+            if (velocity.magnitude > 0.1f) // Only change if moving
+            {
+                // 2. Prioritize Vertical movement for 4-way, then Horizontal
+                if (Mathf.Abs(velocity.y) > Mathf.Abs(velocity.x))
+                {
+                    moveX = 0;
+                    moveY = velocity.y > 0 ? 1 : -1; // Up : Down
+                }
+                else
+                {
+                    moveX = velocity.x > 0 ? 1 : -1; // Right : Left
+                    moveY = 0;
+                }
+            }
+
+            // 3. Optional: Send to Animator
+            if (animator != null)
+            {
+                animator.SetFloat("InputX", moveX);
+                animator.SetFloat("InputY", moveY);
+                animator.SetBool("isWalking", true);
+            }
+
             CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+
             if (walkingPath.m_Position >= maxPosition)
             {
                 NPCState = "quest";
@@ -175,6 +210,25 @@ public class NPCManager : MonoBehaviour
                 chosenTour.SetActive(true);
 
             }
+        }
+
+        if (NPCState != "move")
+        {
+            if (NPCState == "quest" && chosenQuest != "tour")
+            {
+
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+
+            }
+            if (NPCState != "quest")
+            {
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+            }
+
         }
 
     }
