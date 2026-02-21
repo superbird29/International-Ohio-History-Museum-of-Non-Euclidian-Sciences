@@ -241,7 +241,10 @@ MonoBehaviour:
   - {fileID: 5647889438274006156, guid: 9e9b0ecac2b657a44a6c7270546eb722, type: 3}
   - {fileID: 5057623592880630450, guid: 4f28a755f032f50458db17e12a0ab847, type: 3}
   - {fileID: 2238194857939423742, guid: 31605c05a66b8d643b4412dac6ee5123, type: 3}
+  NPCState: spawn
   gaveQuest: 0
+  playerTarget: {fileID: 3762912461224370671, guid: 56306004faf55bb45835450804257eb5, type: 3}
+  followSpeed: 1
 --- !u!114 &3873393770892527804
 MonoBehaviour:
   m_ObjectHideFlags: 0

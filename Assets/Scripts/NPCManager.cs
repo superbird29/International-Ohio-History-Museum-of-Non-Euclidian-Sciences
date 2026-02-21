@@ -13,27 +13,38 @@ public class NPCManager : MonoBehaviour
     public List<DialogueScriptableObject> DialogueListCards;
     public List<CinemachinePathBase> WalkingPaths;
 
+    //NPC states are spawn, move, quest, 
+    public string NPCState = "spawn";
 
-    private string NPCState = "spawn";
+    public bool gaveQuest = false;
 
-    public bool gaveQuest;
+    //Variables to follow player for quest
+    public Transform playerTarget;
 
+    [SerializeField]private float followSpeed = 1f;
 
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
     private CinemachinePathBase chosenPath;
+    private float maxPosition;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
         CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
         chosenQuest = GetRandomQuest();
         chosenDialogue = GetRandomDialogue(chosenQuest);
         chosenPath = GetWalkingPath(chosenQuest);
+        chosenQuest = "tour";
         dialogueActivator.dialogueObject = chosenDialogue;
         walkingPath.m_Path = chosenPath;
+        maxPosition = walkingPath.m_Path.MaxPos;
         NPCState = "move";
+
+        //Store follow values for the tour quest
+     
     }
 
     public string GetRandomQuest()
@@ -100,7 +111,6 @@ public class NPCManager : MonoBehaviour
 
     public CinemachinePathBase GetWalkingPath(string chosenQuest)
     {
-        int randomIndex;
         switch (chosenQuest)
         {
             case "card":
@@ -131,8 +141,24 @@ public class NPCManager : MonoBehaviour
     {
         if (NPCState == "move")
         {
-
+            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+            if (walkingPath.m_Position >= maxPosition)
+            {
+                NPCState = "quest";
+            }
         }
     }
 
+    void LateUpdate()
+    {
+        if (NPCState == "quest" && gaveQuest == true)
+        {
+            if (chosenQuest == "tour")
+            {
+
+                transform.position = Vector2.MoveTowards(transform.position, playerTarget.position, followSpeed * Time.deltaTime);
+            }
+        }
+    }
 }
+ 
