@@ -11,6 +11,7 @@ public class NPCManager : MonoBehaviour
     public List<DialogueScriptableObject> DialogueListTours; 
     public List<DialogueScriptableObject> DialogueListGifts; 
     public List<DialogueScriptableObject> DialogueListCards;
+
     public List<Transform> MovementLists;
     public List<GameObject> TourLocations;
 
@@ -19,7 +20,6 @@ public class NPCManager : MonoBehaviour
 
     //NPC states are spawn, move, quest, 
     public string NPCState = "spawn";
-
     public bool gaveQuest = false;
 
     //Variables to follow player for quest
@@ -30,7 +30,19 @@ public class NPCManager : MonoBehaviour
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
     private GameObject chosenTour;
-    public Transform chosenPath;
+
+
+    //Movement Script
+    public Transform waypointParent;
+    public float moveSpeed = 2f;
+    public float waitTime = 0.1f;
+    public bool loopWaypoints = false;
+
+    private Transform[] waypoints;
+    private int currentWaypointIndex;
+    private bool isWaiting = false;
+    private Animator animator;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -41,11 +53,20 @@ public class NPCManager : MonoBehaviour
         chosenQuest = GetRandomQuest();
         //chosenQuest = "tour";
         chosenDialogue = GetRandomDialogue(chosenQuest);
-        chosenPath = GetWalkingPath(chosenQuest);
+        waypointParent = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
 
         if (chosenQuest == "tour"){
             chosenTour = GetRandomTour();
+        }
+
+
+        animator = GetComponent<Animator>();
+
+        waypoints = new Transform[waypointParent.childCount];
+        for (int i = 0; i < waypointParent.childCount; i++)
+        {
+            waypoints[i] = waypointParent.GetChild(i);
         }
 
         NPCState = "move";
@@ -148,7 +169,6 @@ public class NPCManager : MonoBehaviour
             case "default":
                 return null;
         }
-        Debug.Log(MovementLists);
 
         return null;
     }
@@ -157,10 +177,18 @@ public class NPCManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (isWaiting || NPCState != "move")
+        {
+            animator.SetBool("isWalking", false);
+            return;
+        }
+
+
 
         if (NPCState == "move")
         {
-            
+            animator.SetBool("isWalking", true);
+            MoveToWaypoint();
 
         }
 
@@ -173,21 +201,6 @@ public class NPCManager : MonoBehaviour
 
             }
         }
-
-        if (NPCState != "move")
-        {
-            if (NPCState == "quest" && chosenQuest != "tour")
-            {
-
-
-            }
-            if (NPCState != "quest")
-            {
-
-            }
-
-        }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -205,6 +218,51 @@ public class NPCManager : MonoBehaviour
             NPCState = "quest";
 
         }
+    }
+
+
+    void MoveToWaypoint()
+    {
+        Transform target = waypoints[currentWaypointIndex];
+        Vector2 direction = (target.position - transform.position).normalized;
+
+
+        transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
+
+
+        animator.SetFloat("InputX", direction.x);
+        animator.SetFloat("InputY", direction.y);
+        animator.SetBool("isWalking", direction.magnitude > 0f);
+
+
+        if (Vector2.Distance(transform.position, target.position) < 0.1f)
+        {
+
+            StartCoroutine(WaitAtWaypoint());
+
+        }
+
+    }
+
+
+    IEnumerator WaitAtWaypoint()
+    {
+        isWaiting = true;
+        animator.SetBool("isWalking", false);
+        yield return new WaitForSeconds(waitTime);
+
+        //The % allows the waypoints to wrap around in a circle
+        //If looping, increment currentwaypointindex and warp around, If NOT looping, increment waypoint but done exceed the final waypoint. 
+        currentWaypointIndex = loopWaypoints ? (currentWaypointIndex + 1) % waypoints.Length : Mathf.Min(currentWaypointIndex + 1, waypoints.Length - 1);
+
+        if (currentWaypointIndex + 1>= waypoints.Length)
+        {
+            Debug.Log("QuestTime");
+            NPCState = "quest";
+        }
+
+        isWaiting = false;
     }
 
     private void QuestComplete()

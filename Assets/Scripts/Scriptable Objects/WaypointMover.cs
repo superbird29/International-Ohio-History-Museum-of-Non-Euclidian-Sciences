@@ -17,12 +17,12 @@ public class WaypointMover : MonoBehaviour
     private Animator animator;
 
     // Start is called before the first frame update
-    void Start()
+    public void StartNPCMovement()
     {
         animator = GetComponent<Animator>();
-        NPC = GetComponent<NPCManager>();
-        waypointParent = NPC.chosenPath;
-        waypoints = new Transform[NPC.chosenPath.childCount];
+
+        Debug.Log(waypointParent);
+        waypoints = new Transform[waypointParent.childCount];
 
         for (int i = 0; i < waypointParent.childCount; i++)
         {
