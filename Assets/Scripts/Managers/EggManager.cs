@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using TMPro;
-using UnityEditor.Rendering;
+using UnityEditor.Animations;
+//using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +26,8 @@ public class EggManager : MonoBehaviour
     [SerializeField] float ReductionAmount = .05f;
     [SerializeField] char ChosenKey;
     [SerializeField] bool Inside = false;
+    [SerializeField] List<GameObject> Animations;
+    [SerializeField] Animator Anim;
 
     void Start()
     {
@@ -92,12 +95,24 @@ public class EggManager : MonoBehaviour
         {
             if (Input.GetButton("Interact"))
             {
-
+                
             }
             else
             {
-
+                
             }
+        }
+        if(ProgressTotal <= .5f)
+        {
+            print("over.5");
+            Animations[0].SetActive(true);
+            Animations[1].SetActive(false);
+        }
+        else
+        {
+            print("under.5");
+            Animations[1].SetActive(true);
+            Animations[0].SetActive(false);
         }
     }
     /// <summary>

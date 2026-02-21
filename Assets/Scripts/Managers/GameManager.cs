@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();
     private static GameManager m_Instance;
+    public int Money;
     public static GameManager Instance
     {
         get

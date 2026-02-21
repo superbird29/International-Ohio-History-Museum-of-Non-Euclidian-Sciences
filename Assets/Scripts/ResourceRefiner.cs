@@ -12,6 +12,9 @@ public class ResourceRefiner : MonoBehaviour
     [SerializeField] bool FinishedProcessing = false;
     [SerializeField] bool NearRefiner = false;
     [SerializeField] GameObject ProcessingIcon;
+    [SerializeField] GameObject FinishedIcon;
+    public GameObject NextIcon;
+    [SerializeField] GameObject NextObj;
     void Update()
     {
         if (Input.GetButtonDown("Interact") && NearRefiner)
@@ -21,7 +24,7 @@ public class ResourceRefiner : MonoBehaviour
                 InputResource = GameManager.Instance._player.CarryObject;
                 GameManager.Instance._player.CarryObject = null;
                 GameManager.Instance._player.CarryingObject.SetActive(false);
-
+                NextIcon.SetActive(false);
                 StartCoroutine(Process());
             }
         }
@@ -30,6 +33,8 @@ public class ResourceRefiner : MonoBehaviour
             GameManager.Instance._player.CarryObject = OutputResource;
             GameManager.Instance._player.CarryingObject.SetActive(true);
             FinishedProcessing = false;
+            FinishedIcon.SetActive(false);
+            NextObj.SetActive(true);
         }
     }
 
@@ -49,5 +54,6 @@ public class ResourceRefiner : MonoBehaviour
         Processing = false;
         ProcessingIcon.SetActive(false);
         FinishedProcessing = true;
+        FinishedIcon.SetActive(true);
     }
 }
