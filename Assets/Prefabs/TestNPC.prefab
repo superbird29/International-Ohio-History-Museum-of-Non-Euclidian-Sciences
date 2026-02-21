@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 3873393770892527804}
   m_Layer: 0
   m_Name: TestNPC
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,7 +155,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 0.8
 --- !u!114 &4742905378975512136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +237,7 @@ MonoBehaviour:
   DialogueListCards:
   - {fileID: 11400000, guid: 525c981055ccc234dbbd1b799418690e, type: 2}
   - {fileID: 11400000, guid: b0f392941cc54e54da1e9308a7665773, type: 2}
+  TourLocations: []
   WalkingPaths:
   - {fileID: 5647889438274006156, guid: 9e9b0ecac2b657a44a6c7270546eb722, type: 3}
   - {fileID: 5057623592880630450, guid: 4f28a755f032f50458db17e12a0ab847, type: 3}
