@@ -11,11 +11,9 @@ public class NPCManager : MonoBehaviour
     public List<DialogueScriptableObject> DialogueListTours; 
     public List<DialogueScriptableObject> DialogueListGifts; 
     public List<DialogueScriptableObject> DialogueListCards;
+    public List<Transform> MovementLists;
     public List<GameObject> TourLocations;
-    public List<CinemachinePathBase> WalkingPaths;
 
-    private Animator animator;
-    private Rigidbody2D rb;
     public float moveX { get; private set; }
     public float moveY { get; private set; }
 
@@ -31,31 +29,26 @@ public class NPCManager : MonoBehaviour
 
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
-    private CinemachinePathBase chosenPath;
     private GameObject chosenTour;
-    private float maxPosition;
+    public Transform chosenPath;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
-        CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+
         chosenQuest = GetRandomQuest();
         //chosenQuest = "tour";
         chosenDialogue = GetRandomDialogue(chosenQuest);
         chosenPath = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
-        walkingPath.m_Path = chosenPath;
-        maxPosition = walkingPath.m_Path.MaxPos;
-        NPCState = "move";
 
         if (chosenQuest == "tour"){
             chosenTour = GetRandomTour();
         }
 
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
+        NPCState = "move";
 
     }
 
@@ -133,28 +126,29 @@ public class NPCManager : MonoBehaviour
     }
 
 
-    public CinemachinePathBase GetWalkingPath(string chosenQuest)
+    public Transform GetWalkingPath(string chosenQuest)
     {
         switch (chosenQuest)
         {
-            case "card":
-                return WalkingPaths[0];
+            case "tour":
+                return MovementLists[0];
                 break;
 
             case "gift":
 
-                return WalkingPaths[1];
+                return MovementLists[1];
                 break;
 
-            case "tour":
+            case "card":
 
-                return WalkingPaths[2];
+                return MovementLists[2];
                 break;
 
 
             case "default":
                 return null;
         }
+        Debug.Log(MovementLists);
 
         return null;
     }
@@ -164,42 +158,10 @@ public class NPCManager : MonoBehaviour
     private void Update()
     {
 
-        Quaternion.Euler(0, 0, 0);
         if (NPCState == "move")
         {
             
-            Vector2 velocity = rb.velocity;
 
-            if (velocity.magnitude > 0.1f) // Only change if moving
-            {
-                // 2. Prioritize Vertical movement for 4-way, then Horizontal
-                if (Mathf.Abs(velocity.y) > Mathf.Abs(velocity.x))
-                {
-                    moveX = 0;
-                    moveY = velocity.y > 0 ? 1 : -1; // Up : Down
-                }
-                else
-                {
-                    moveX = velocity.x > 0 ? 1 : -1; // Right : Left
-                    moveY = 0;
-                }
-            }
-
-            // 3. Optional: Send to Animator
-            if (animator != null)
-            {
-                animator.SetFloat("InputX", moveX);
-                animator.SetFloat("InputY", moveY);
-                animator.SetBool("isWalking", true);
-            }
-
-            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
-
-            if (walkingPath.m_Position >= maxPosition)
-            {
-                NPCState = "quest";
-                walkingPath.enabled = false;
-            }
         }
 
         if (NPCState == "quest" && gaveQuest == true)
@@ -217,16 +179,11 @@ public class NPCManager : MonoBehaviour
             if (NPCState == "quest" && chosenQuest != "tour")
             {
 
-                animator.SetBool("isWalking", false);
-                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
-                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
 
             }
             if (NPCState != "quest")
             {
-                animator.SetBool("isWalking", false);
-                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
-                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+
             }
 
         }
@@ -243,10 +200,10 @@ public class NPCManager : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy") && NPCState == "move")
         {
-            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+            //Stop moving if another NPC is waiting in line ahead of you. 
 
             NPCState = "quest";
-            walkingPath.enabled = false;
+
         }
     }
 
