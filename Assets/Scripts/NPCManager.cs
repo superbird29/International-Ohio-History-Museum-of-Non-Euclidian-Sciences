@@ -16,7 +16,12 @@ public class NPCManager : MonoBehaviour
     //NPC states are spawn, move, quest, 
     public string NPCState = "spawn";
 
-    public bool gaveQuest;
+    public bool gaveQuest = false;
+
+    //Variables to follow player for quest
+    public Transform playerTarget;
+
+    [SerializeField]private float followSpeed = 1f;
 
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
@@ -26,15 +31,20 @@ public class NPCManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
         CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
         chosenQuest = GetRandomQuest();
         chosenDialogue = GetRandomDialogue(chosenQuest);
         chosenPath = GetWalkingPath(chosenQuest);
+        chosenQuest = "tour";
         dialogueActivator.dialogueObject = chosenDialogue;
         walkingPath.m_Path = chosenPath;
         maxPosition = walkingPath.m_Path.MaxPos;
         NPCState = "move";
+
+        //Store follow values for the tour quest
+     
     }
 
     public string GetRandomQuest()
@@ -101,7 +111,6 @@ public class NPCManager : MonoBehaviour
 
     public CinemachinePathBase GetWalkingPath(string chosenQuest)
     {
-        int randomIndex;
         switch (chosenQuest)
         {
             case "card":
@@ -140,4 +149,16 @@ public class NPCManager : MonoBehaviour
         }
     }
 
+    void LateUpdate()
+    {
+        if (NPCState == "quest" && gaveQuest == true)
+        {
+            if (chosenQuest == "tour")
+            {
+
+                transform.position = Vector2.MoveTowards(transform.position, playerTarget.position, followSpeed * Time.deltaTime);
+            }
+        }
+    }
 }
+ 

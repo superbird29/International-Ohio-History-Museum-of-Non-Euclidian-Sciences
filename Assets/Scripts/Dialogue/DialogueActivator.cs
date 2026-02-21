@@ -48,6 +48,7 @@ public class DialogueActivator : MonoBehaviour, IInteractable
                 }
             }
 
+            NPC.gaveQuest = true;
         player.DialogueUI.ShowDialogue(dialogueObject);
         }
 
