@@ -23,6 +23,8 @@ public class JobManager : MonoBehaviour
     [SerializeField] float minTourEarnings;
     [SerializeField] float maxTourEarnings;
 
+    [SerializeField] AudioSource jobAlert;
+
     private readonly List<JobType> lastTenJobs = new();
 
     private bool spawningJob;
@@ -104,6 +106,7 @@ public class JobManager : MonoBehaviour
         };
         AddJob(newJob);
         UpdateLastTenJobTypes(newJob.jobType);
+        jobAlert.Play();
     }
 
     private void UpdateLastTenJobTypes(JobType jobType)
