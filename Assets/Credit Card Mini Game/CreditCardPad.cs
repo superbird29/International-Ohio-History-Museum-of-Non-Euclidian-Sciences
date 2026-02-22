@@ -11,34 +11,51 @@ public class CreditCardPad : MonoBehaviour
     [SerializeField] TMP_Text creditCardNumber;
 
     [SerializeField] float resultDisplayTime;
+
+    [SerializeField] TicketCounter ticketCounter;
     CreditCard creditCard;
 
     bool checkingNumber;
 
+    bool cardStarted;
+
     string enteredNumber;
 
-    public void Start()
+     void Start()
     {
         creditCard = ScriptableObject.CreateInstance<CreditCard>();
-        BeginMinigame();
+        enteredNumber = "";
+        checkingNumber = false;
+        cardStarted = false;
     }
 
-    public void Update()
+     void Update()
     {
         if (enteredNumber.Length >= 12 && !checkingNumber)
         {
             checkingNumber = true;
             ValidateNumber();
-            StartCoroutine(DisplayResult());
-            ClearNumber();
         }
     }
 
     public void BeginMinigame()
     {
-        GenerateCreditCard();
-        ClearDisplay();
-        checkingNumber = false;
+        if (!cardStarted)
+        {
+            GenerateCreditCard();
+            ClearDisplay();
+            checkingNumber = false;
+            cardStarted = true;
+        }
+    }
+
+    public void ForceStartMinigame()
+    {
+        
+            GenerateCreditCard();
+            ClearDisplay();
+            checkingNumber = false;
+            cardStarted = true;
     }
 
     public void EnterNumber(string number)
@@ -83,35 +100,57 @@ public class CreditCardPad : MonoBehaviour
         enteredNumber = "";
     }
 
+    public void PostValidateCleanup()
+    {
+        ClearAll();
+        checkingNumber = false;
+    }
+
     public void ValidateNumber()
     {
         if (creditCard.ValidateEnteredNumber(enteredNumber))
         {
-            numberDisplay.text = "ACCEPTED";
-            GenerateCreditCard();
+            StartCoroutine(Accepted());
         }
         else
         {
-            numberDisplay.text = "DECLINED";
+            StartCoroutine(Declined());
         }
-
     }
 
-    IEnumerator DisplayResult()
+    IEnumerator Accepted()
     {
+        numberDisplay.text = "ACCEPTED";
+
         yield return new WaitForSeconds(resultDisplayTime);
 
-        string text = numberDisplay.text;
+        numberDisplay.text = "";
+
+        yield return new WaitForSeconds(resultDisplayTime);
+
+        numberDisplay.text = "ACCEPTED";
+
+        yield return new WaitForSeconds(resultDisplayTime);
+
+        PostValidateCleanup();
+        ticketCounter.CCEntered();
+        cardStarted = false;
+    }
+
+    IEnumerator Declined()
+    {
+        numberDisplay.text = "DECLINED";
+
+        yield return new WaitForSeconds(resultDisplayTime);
 
         numberDisplay.text = "";
 
         yield return new WaitForSeconds(resultDisplayTime);
 
-        numberDisplay.text = text;
+        numberDisplay.text = "DECLINED";
 
         yield return new WaitForSeconds(resultDisplayTime);
 
-        numberDisplay.text = "";
-        checkingNumber = false;
+        PostValidateCleanup();
     }
 }

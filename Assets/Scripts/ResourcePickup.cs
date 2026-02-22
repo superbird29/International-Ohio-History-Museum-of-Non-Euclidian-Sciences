@@ -21,10 +21,18 @@ public class ResourcePickup : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+        GameManager.Instance._player.ActiveInteractPopup();
         NearBox = true;
+        }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+        GameManager.Instance._player.DeactiveInteractPopup();
         NearBox = false;
+        }
     }
 }

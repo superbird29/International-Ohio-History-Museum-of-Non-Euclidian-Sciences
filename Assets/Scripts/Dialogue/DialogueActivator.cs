@@ -16,6 +16,7 @@ public class DialogueActivator : MonoBehaviour, IInteractable
         //Checking if this is the player
         if (other.CompareTag("Player") && other.TryGetComponent(out Player player))
         {
+            GameManager.Instance._player.ActiveInteractPopup();
             player.Interactable = this;
         }
     }
@@ -27,6 +28,7 @@ public class DialogueActivator : MonoBehaviour, IInteractable
             if (player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this)
             {
                 //only says its null once it is sure it is the current interactable
+                GameManager.Instance._player.ActiveInteractPopup();
                 player.Interactable = null;
             }
         }

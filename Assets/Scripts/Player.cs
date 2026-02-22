@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private DialogueUI dialogueUI;
 
+    [SerializeField] GameObject interactPopup;
+
     public float movementSpeed;
     public Rigidbody2D rb2d;
     private Vector2 moveInput;
@@ -68,6 +70,17 @@ public class Player : MonoBehaviour
         }
 
     }
+
+    public void ActiveInteractPopup()
+    {
+        interactPopup.SetActive(true);
+    }
+
+    public void DeactiveInteractPopup()
+    {
+        interactPopup.SetActive(false);
+    }
+
 }
 
 
