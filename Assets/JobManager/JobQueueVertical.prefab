@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751744010846869902}
   - component: {fileID: 1635205251291376109}
-  - component: {fileID: 6150765547131886049}
+  - component: {fileID: 6162600050748254367}
   m_Layer: 5
   m_Name: JobQueueDisplay
   m_TagString: Untagged
@@ -33,10 +33,10 @@ RectTransform:
   - {fileID: 7710323486564876300}
   m_Father: {fileID: 2308816593976163202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 352.5, y: -96.71777}
-  m_SizeDelta: {x: 693.99, y: 171.43561}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 101.0601, y: 1.1613}
+  m_SizeDelta: {x: 191.1102, y: 491.6774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1635205251291376109
 MonoBehaviour:
@@ -52,9 +52,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jobManager: {fileID: 0}
   jobDisplayCardPrefab: {fileID: 5202953622741382198, guid: faa7e628dcddbb5498bac06b8ac65289, type: 3}
-  displayRow: {fileID: 6150765547131886049}
+  displayRow: {fileID: 6162600050748254367}
   jobQueue: []
---- !u!114 &6150765547131886049
+--- !u!114 &6162600050748254367
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2268749554254325543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -72,14 +72,14 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 20
+  m_Spacing: 5
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
+  m_ReverseArrangement: 1
 --- !u!1 &5552417123531331369
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6339215305099984429}
   - component: {fileID: 482376074954287555}
   m_Layer: 5
-  m_Name: JobQueue
+  m_Name: JobQueueVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

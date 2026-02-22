@@ -40,11 +40,19 @@ public class ResourceRefiner : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+        GameManager.Instance._player.ActiveInteractPopup();
         NearRefiner = true;
+        }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+        GameManager.Instance._player.DeactiveInteractPopup();
         NearRefiner = false;
+        }
     }
     IEnumerator Process()
     {

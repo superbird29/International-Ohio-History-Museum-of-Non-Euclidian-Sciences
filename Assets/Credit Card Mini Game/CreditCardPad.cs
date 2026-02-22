@@ -24,7 +24,9 @@ public class CreditCardPad : MonoBehaviour
      void Start()
     {
         creditCard = ScriptableObject.CreateInstance<CreditCard>();
-        BeginMinigame();
+        enteredNumber = "";
+        checkingNumber = false;
+        cardStarted = false;
     }
 
      void Update()
@@ -45,6 +47,15 @@ public class CreditCardPad : MonoBehaviour
             checkingNumber = false;
             cardStarted = true;
         }
+    }
+
+    public void ForceStartMinigame()
+    {
+        
+            GenerateCreditCard();
+            ClearDisplay();
+            checkingNumber = false;
+            cardStarted = true;
     }
 
     public void EnterNumber(string number)

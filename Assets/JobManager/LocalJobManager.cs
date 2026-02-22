@@ -30,6 +30,11 @@ public abstract class LocalJobManager : MonoBehaviour
         JobAdded(addedJob);
     }
 
+    public bool JobInQueue()
+    {
+        return jobQueue.Count > 0;
+    }
+
     //Implement this method as needed for when a job is added
     public abstract void JobAdded(Job addedJob);
 

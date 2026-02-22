@@ -10,7 +10,7 @@ public class JobQueueDisplay : MonoBehaviour
 
     [SerializeField] JobDisplayCard jobDisplayCardPrefab;
 
-    [SerializeField] HorizontalLayoutGroup displayRow;
+    [SerializeField] LayoutGroup displayRow;
 
     public List<Job> jobQueue;
     // Start is called before the first frame update

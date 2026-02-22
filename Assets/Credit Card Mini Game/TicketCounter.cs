@@ -8,23 +8,24 @@ public class TicketCounter : MonoBehaviour
 
     bool ccEntered;
 
-    [SerializeField] Canvas displayPrompt;
+    [SerializeField] TicketJobManager ticketJobManager;
 
     [SerializeField] Canvas creditCardPadCanvas;
 
     [SerializeField] CreditCardPad creditCardPad;
 
+    [SerializeField] TicketLine ticketLine;
+
     void Start()
     {
         playerInBooth = false;
         ccEntered = false;
-        displayPrompt.gameObject.SetActive(false);
         creditCardPadCanvas.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        if (playerInBooth && Input.GetButtonDown("Interact"))
+        if (playerInBooth && Input.GetButtonDown("Interact") && ticketJobManager.JobInQueue())
         {
             creditCardPad.BeginMinigame();
             creditCardPadCanvas.gameObject.SetActive(true);
@@ -34,9 +35,9 @@ public class TicketCounter : MonoBehaviour
         {
             ccEntered = false;
             creditCardPadCanvas.gameObject.SetActive(false);
-            //Spawn Tourist
-            //Complete job
+            ticketJobManager.CompleteNextJob();
         }
+        ticketLine.UpdateLineLength(ticketJobManager.jobQueue.Count);
     }
 
     public void CCEntered()
@@ -46,10 +47,10 @@ public class TicketCounter : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && ticketJobManager.JobInQueue())
         {
             playerInBooth = true;
-            displayPrompt.gameObject.SetActive(true);
+            GameManager.Instance._player.ActiveInteractPopup();
         }
     }
 
@@ -58,7 +59,7 @@ public class TicketCounter : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerInBooth = false;
-            displayPrompt.gameObject.SetActive(false);
+            GameManager.Instance._player.DeactiveInteractPopup();
             creditCardPadCanvas.gameObject.SetActive(false);
         }
     }

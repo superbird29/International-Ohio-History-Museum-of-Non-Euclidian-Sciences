@@ -38,6 +38,21 @@ public class EggManager : MonoBehaviour
 
     void Update()
     {
+        HandleEggMinigame();
+        CheckEggDifficulty();
+        CheckGameOver();
+    }
+
+    private void CheckGameOver()
+    {
+        if(ProgressTotal >= 1)
+        {
+            GameManager.Instance._gameOverManager.GameOver();
+        }
+    }
+
+    private void HandleEggMinigame()
+    {
         if (EggDifficulty == 0 && Inside)
         {
             if (Input.GetButton("Interact"))
@@ -95,43 +110,57 @@ public class EggManager : MonoBehaviour
         {
             if (Input.GetButton("Interact"))
             {
-                
+
             }
             else
             {
-                
+
             }
         }
-        if(ProgressTotal <= .5f)
+    }
+
+    private void CheckEggDifficulty()
+    {
+        if (ProgressTotal >= .5f && EggDifficulty < 1)
         {
+            IncreaseEggDifficulty();
             print("over.5");
             Animations[0].SetActive(true);
             Animations[1].SetActive(false);
         }
-        else
+        else if (ProgressTotal < .5f && EggDifficulty > 0)
         {
+            EggDifficulty--;
+            UpdateEggLevelText();
             print("under.5");
             Animations[1].SetActive(true);
             Animations[0].SetActive(false);
         }
     }
+
     /// <summary>
     /// Area around Egg, Used to interact with egg.
     /// </summary>
     /// <param name="collision"></param>
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
         ChoseKey();
         Inside = true;
         EggPannel[EggDifficulty].SetActive(true);
+        }
         
     }
     public void OnTriggerExit2D(Collider2D other)
     {
+        if (other.gameObject.CompareTag("Player"))
+        {
         Inside = false;
         for (int i = 0; i < EggPannel.Count; i++)
         {
             EggPannel[i].SetActive(false);
+        }
         }
     }
     void ChoseKey()
@@ -141,9 +170,14 @@ public class EggManager : MonoBehaviour
 
     void IncreaseEggDifficulty()
     {
-        EggDifficulty += 1;
-        gameObject.GetComponent<TMP_Text>().text = "Level: " + EggDifficulty.ToString();
+        EggDifficulty++;
+        UpdateEggLevelText();
         StartCoroutine(EggPatience());
+    }
+
+    private void UpdateEggLevelText()
+    {
+        Level.GetComponent<TMP_Text>().text = "Level: " + EggDifficulty.ToString();
     }
 
     void EggProgress()
@@ -179,5 +213,10 @@ public class EggManager : MonoBehaviour
         }
         EggSlider.value = ProgressTotal;
         EggProgress();
+    }
+
+    public void IncreaseEggBar(float increase)
+    {
+        ProgressTotal += increase;
     }
 }

@@ -7,6 +7,12 @@ public class GameManager : MonoBehaviour
     public EggManager _eggManager;
     public Player _player;
 
+    public JobManager _jobManager;
+
+    public GameOverManager _gameOverManager;
+
+    public RentManager _rentManager;
+
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();
     private static GameManager m_Instance;

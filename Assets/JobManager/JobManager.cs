@@ -12,6 +12,17 @@ public class JobManager : MonoBehaviour
 
     [SerializeField] List<JobType> startingJobWeights;
 
+    [SerializeField] float jobLength = 60f;
+
+    [SerializeField] float minGiftEarnings;
+    [SerializeField] float maxGiftEarnings;
+
+    [SerializeField] float minTicketEarnings;
+    [SerializeField] float maxTicketEarnings;
+
+    [SerializeField] float minTourEarnings;
+    [SerializeField] float maxTourEarnings;
+
     private readonly List<JobType> lastTenJobs = new();
 
     private bool spawningJob;
@@ -26,7 +37,7 @@ public class JobManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeUntilNextJob = timeBetweenJobs;
+        timeUntilNextJob = 15f;
         lastTenJobs.AddRange(startingJobWeights.GetRange(0,10));
         jobQueue.ForEach(job => job.StartJob());
         spawningJob = false;
@@ -37,7 +48,7 @@ public class JobManager : MonoBehaviour
     {
         jobQueue.ForEach(job => job.Tick(Time.deltaTime));
         timeUntilNextJob = timeUntilNextJob - Time.deltaTime;
-        if(timeUntilNextJob <= 0f && jobQueue.Count < 5 && !spawningJob)
+        if(timeUntilNextJob <= 0f && !spawningJob)
         {
             spawningJob = true;
             SpawnJob();
@@ -53,13 +64,32 @@ public class JobManager : MonoBehaviour
 
     public void FailJob(Job failedJob)
     {
-        //Talk to egg manager?
+        timeBetweenJobs++;
         RemoveJob(failedJob);
     }
 
     public void CompleteJob(Job completedJob)
     {
-        //Talk to money manager
+        float moneyEarned = 0f;
+        switch (completedJob.jobType)
+        {
+            case JobType.Gift:
+            {
+                moneyEarned = Random.Range(minGiftEarnings, maxGiftEarnings);
+                break;
+            }
+            case JobType.Ticket:
+            {
+                moneyEarned = Random.Range(minTicketEarnings, maxTicketEarnings);
+                break;
+            }
+            case JobType.Tour:
+            {
+                moneyEarned = Random.Range(minTourEarnings, maxTourEarnings);
+                break;
+            }
+        }
+        GameManager.Instance._rentManager.AddMoney(moneyEarned);
         RemoveJob(completedJob);
     }
 
@@ -69,6 +99,7 @@ public class JobManager : MonoBehaviour
 
         Job newJob = new()
         {
+            duration = jobLength,
             jobType = RollForJobType()
         };
         AddJob(newJob);
@@ -95,12 +126,12 @@ public class JobManager : MonoBehaviour
         {
             case JobType.Gift:
             {
-                //giftShopJobManager.AddJob(addedJob);
+                giftShopJobManager.AddJob(addedJob);
                 break;
             }
             case JobType.Ticket:
             {
-                //ticketCounterJobManager.AddJob(addedJob);
+                ticketCounterJobManager.AddJob(addedJob);
                 break;
             }
             case JobType.Tour:
