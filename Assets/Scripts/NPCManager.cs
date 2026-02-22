@@ -50,8 +50,8 @@ public class NPCManager : MonoBehaviour
         //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
 
-        //chosenQuest = GetRandomQuest();
-        chosenQuest = "tour";
+        chosenQuest = GetRandomQuest();
+        //chosenQuest = "tour";
         chosenDialogue = GetRandomDialogue(chosenQuest);
         waypointParent = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
