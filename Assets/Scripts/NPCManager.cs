@@ -50,8 +50,8 @@ public class NPCManager : MonoBehaviour
         //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
 
-        chosenQuest = GetRandomQuest();
-        //chosenQuest = "tour";
+        //chosenQuest = GetRandomQuest();
+        chosenQuest = "tour";
         chosenDialogue = GetRandomDialogue(chosenQuest);
         waypointParent = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
@@ -179,8 +179,15 @@ public class NPCManager : MonoBehaviour
     {
         if (isWaiting || NPCState != "move")
         {
-            animator.SetBool("isWalking", false);
-            return;
+            if (NPCState == "quest" && chosenQuest == "tour")
+            {
+
+            }
+            else
+            {
+                animator.SetBool("isWalking", false);
+                return;
+            }
         }
 
 
@@ -196,8 +203,13 @@ public class NPCManager : MonoBehaviour
         {
             if (chosenQuest == "tour")
             {
+                Vector2 direction = (playerTarget.position - transform.position).normalized;
                 transform.position = Vector3.MoveTowards(transform.position, playerTarget.position, followSpeed * Time.deltaTime);
                 chosenTour.SetActive(true);
+
+                animator.SetFloat("InputX", direction.x);
+                animator.SetFloat("InputY", direction.y);
+                animator.SetBool("isWalking", direction.magnitude > 0f);
 
             }
         }
@@ -216,6 +228,7 @@ public class NPCManager : MonoBehaviour
             //Stop moving if another NPC is waiting in line ahead of you. 
 
             NPCState = "quest";
+            animator.SetBool("isWalking", false);
 
         }
     }
@@ -236,7 +249,7 @@ public class NPCManager : MonoBehaviour
         animator.SetBool("isWalking", direction.magnitude > 0f);
 
 
-        if (Vector2.Distance(transform.position, target.position) < 0.1f)
+        if (Vector2.Distance(transform.position, target.position) < 0.2f)
         {
 
             StartCoroutine(WaitAtWaypoint());
@@ -260,6 +273,7 @@ public class NPCManager : MonoBehaviour
         {
             Debug.Log("QuestTime");
             NPCState = "quest";
+            animator.SetBool("isWalking", false);
         }
 
         isWaiting = false;

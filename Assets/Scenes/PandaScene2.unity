@@ -1074,7 +1074,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.18
+  m_Radius: 1.2
 --- !u!4 &187682425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2603970768341138887, guid: 670ef397b30c45949a850dd65090ee7a, type: 3}
@@ -40725,7 +40725,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.18
+  m_Radius: 1.09
 --- !u!224 &924115508
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54329,7 +54329,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.18
+  m_Radius: 1.2
 --- !u!1 &1491896983
 GameObject:
   m_ObjectHideFlags: 0
@@ -54661,7 +54661,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.18
+  m_Radius: 1.1
 --- !u!1 &1528727783
 GameObject:
   m_ObjectHideFlags: 0
@@ -62872,6 +62872,18 @@ PrefabInstance:
     - target: {fileID: 8444423764186324296, guid: 2a0b92155c8f67f41b5a4e6a9217d379, type: 3}
       propertyPath: m_CategoryHash
       value: 0.009161512
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020335541078747326, guid: 2a0b92155c8f67f41b5a4e6a9217d379, type: 3}
+      propertyPath: waitTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020335541078747326, guid: 2a0b92155c8f67f41b5a4e6a9217d379, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020335541078747326, guid: 2a0b92155c8f67f41b5a4e6a9217d379, type: 3}
+      propertyPath: followSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9020335541078747326, guid: 2a0b92155c8f67f41b5a4e6a9217d379, type: 3}
       propertyPath: playerTarget
