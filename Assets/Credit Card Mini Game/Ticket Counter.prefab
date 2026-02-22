@@ -417,6 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jobQueue: []
   creditCardPad: {fileID: 1987752288505705030}
+  creditCardMinigameCanvas: {fileID: 8090198157499373979}
 --- !u!1 &5820683437682411572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1269,11 @@ MonoBehaviour:
 --- !u!223 &2296234396688270063 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 8234302832752227279, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+  m_PrefabInstance: {fileID: 7898121635697471776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8090198157499373979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2152135219263973563, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
   m_PrefabInstance: {fileID: 7898121635697471776}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &8678972657475446053 stripped

@@ -34,7 +34,6 @@ public class TicketCounter : MonoBehaviour
         if (ccEntered)
         {
             ccEntered = false;
-            creditCardPadCanvas.gameObject.SetActive(false);
             ticketJobManager.CompleteNextJob();
         }
         ticketLine.UpdateLineLength(ticketJobManager.jobQueue.Count);
@@ -43,6 +42,11 @@ public class TicketCounter : MonoBehaviour
     public void CCEntered()
     {
         ccEntered = true;
+    }
+
+    public void DisableCCPadCanvas()
+    {
+        creditCardPadCanvas.gameObject.SetActive(false);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

@@ -27,13 +27,13 @@ public class RentManager : MonoBehaviour
     {
         timeUntilNextRentPayment = rentPaymentCountdown;
         currentRent = startingRentPayment;
-        nextRentPaymentText.text = "$" + currentRent;
+        nextRentPaymentText.text = "$" + String.Format("{0:0.00}", currentRent);
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentSavingsText.text = "$" + currentSavings;
+        currentSavingsText.text = "$" + String.Format("{0:0.00}", currentSavings);
         
         timeUntilNextRentPayment = timeUntilNextRentPayment - Time.deltaTime;
         TimeSpan timeSpan = TimeSpan.FromSeconds(timeUntilNextRentPayment);
@@ -65,7 +65,7 @@ public class RentManager : MonoBehaviour
             GameManager.Instance._eggManager.IncreaseEggBar(1 - (currentSavings/currentRent));
             currentSavings = 0f;
         }
-        nextRentPaymentText.text = "$" + currentRent;
+        nextRentPaymentText.text = "$" + String.Format("{0:0.00}", currentRent);
     }
 
     

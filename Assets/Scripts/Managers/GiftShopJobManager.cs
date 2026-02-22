@@ -22,6 +22,6 @@ public class GiftShopJobManager : LocalJobManager
 
     public void CompleteNextJob()
     {
-        JobCompleted(jobQueue[0]);
+        CompleteJob(jobQueue[0]);
     }
 }

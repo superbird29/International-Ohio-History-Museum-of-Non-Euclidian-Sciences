@@ -66,12 +66,14 @@ public class JobManager : MonoBehaviour
 
     public void FailJob(Job failedJob)
     {
-        timeBetweenJobs++;
+        timeBetweenJobs += 1f;
         RemoveJob(failedJob);
     }
 
     public void CompleteJob(Job completedJob)
     {
+        timeUntilNextJob -= 10;
+        timeBetweenJobs -= 2f;
         float moneyEarned = 0f;
         switch (completedJob.jobType)
         {

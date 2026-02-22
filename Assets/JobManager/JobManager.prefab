@@ -49,17 +49,17 @@ MonoBehaviour:
   giftShopJobManager: {fileID: 0}
   tourGuidesJobManager: {fileID: 0}
   startingJobWeights: 00000000010000000000000001000000000000000100000000000000010000000000000001000000
-  jobLength: 60
-  minGiftEarnings: 0
-  maxGiftEarnings: 0
-  minTicketEarnings: 0
-  maxTicketEarnings: 0
-  minTourEarnings: 0
-  maxTourEarnings: 0
+  jobLength: 90
+  minGiftEarnings: 2
+  maxGiftEarnings: 3
+  minTicketEarnings: 1
+  maxTicketEarnings: 2
+  minTourEarnings: 5
+  maxTourEarnings: 5
   jobAlert: {fileID: 3050452215634351288}
   jobQueue:
   - {fileID: 11400000, guid: ecc02e98db034b145a580997bfb323c1, type: 2}
-  timeBetweenJobs: 10
+  timeBetweenJobs: 30
   maxJobQueue: 5
 --- !u!1 &8554936353774217571
 GameObject:

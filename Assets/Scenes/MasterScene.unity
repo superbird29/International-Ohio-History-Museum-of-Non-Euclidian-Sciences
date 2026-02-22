@@ -59296,8 +59296,12 @@ PrefabInstance:
       value: JobManager
       objectReference: {fileID: 0}
     - target: {fileID: 1171087772517784110, guid: 0276995161a69d045b05b4015ac4885b, type: 3}
+      propertyPath: jobLength
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171087772517784110, guid: 0276995161a69d045b05b4015ac4885b, type: 3}
       propertyPath: timeBetweenJobs
-      value: 120
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1171087772517784110, guid: 0276995161a69d045b05b4015ac4885b, type: 3}
       propertyPath: giftShopJobManager

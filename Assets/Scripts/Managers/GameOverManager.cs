@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -20,7 +21,7 @@ public class GameOverManager : MonoBehaviour
 
     void Update()
     {
-        lifetimeEarningsText.text = "Lifetime Earnings: $" + GameManager.Instance._rentManager.lifetimeEarnings;
+        lifetimeEarningsText.text = "Lifetime Earnings: $" + String.Format("{0:0.00}", GameManager.Instance._rentManager.lifetimeEarnings);
     }
 
     public void GameOver()
