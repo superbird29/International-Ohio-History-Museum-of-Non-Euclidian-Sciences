@@ -28,7 +28,7 @@ public class ResourceRefiner : MonoBehaviour
                 StartCoroutine(Process());
             }
         }
-        if(Input.GetButtonDown("Interact") && FinishedProcessing)
+        if(Input.GetButtonDown("Interact") && FinishedProcessing && NearRefiner)
         {
             GameManager.Instance._player.CarryObject = OutputResource;
             GameManager.Instance._player.CarryingObject.SetActive(true);
@@ -58,10 +58,30 @@ public class ResourceRefiner : MonoBehaviour
     {
         Processing = true;
         ProcessingIcon.SetActive(true);
+        ProgressColor();
         yield return new WaitForSeconds(ProcessTime);
         Processing = false;
         ProcessingIcon.SetActive(false);
         FinishedProcessing = true;
         FinishedIcon.SetActive(true);
+        ProcessingIcon.GetComponentInChildren<SpriteRenderer>().color = Color.white;
+    }
+
+    void ProgressColor()
+    {
+        if(Processing == true)
+        {
+            StartCoroutine(ProgressBar());
+        }
+    }
+
+    IEnumerator ProgressBar()
+    {
+        yield return new WaitForSeconds(1);
+        ProcessingIcon.GetComponentInChildren<SpriteRenderer>().color = Color.white;
+        yield return new WaitForSeconds(1);
+        ProcessingIcon.GetComponentInChildren<SpriteRenderer>().color = Color.green;
+        print("one pass");
+        ProgressColor();
     }
 }
