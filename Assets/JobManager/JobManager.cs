@@ -41,7 +41,7 @@ public class JobManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeUntilNextJob = 4f;
+        timeUntilNextJob = 8f;
         lastTenJobs.AddRange(startingJobWeights.GetRange(0,10));
         jobQueue.ForEach(job => job.StartJob());
         spawningJob = false;

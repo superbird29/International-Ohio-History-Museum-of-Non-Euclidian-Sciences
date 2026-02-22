@@ -11,7 +11,7 @@ public class TicketJobManager : LocalJobManager
     [SerializeField] GameObject creditCardMinigameCanvas;
     public override void JobAdded(Job addedJob)
     {
-        creditCardPad.BeginMinigame();
+        //creditCardPad.BeginMinigame();
         return;
     }
 
