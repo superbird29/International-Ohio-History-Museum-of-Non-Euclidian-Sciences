@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: NPC1_0
+      m_Hash: 191958071
+      m_Sprite: {fileID: -1748286201, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1748286201, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_6
+      m_Hash: 571648258
+      m_Sprite: {fileID: 238041019, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 238041019, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_12
+      m_Hash: 997743439
+      m_Sprite: {fileID: 686869395, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 686869395, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_18
+      m_Hash: 464368209
+      m_Sprite: {fileID: -256223088, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -256223088, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: NPC1_0
+      m_Hash: 191958071
+      m_Sprite: {fileID: -1748286201, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1748286201, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_1
+      m_Hash: 1014381729
+      m_Sprite: {fileID: 2007121108, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2007121108, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_2
+      m_Hash: 629107995
+      m_Sprite: {fileID: 129752213, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 129752213, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_3
+      m_Hash: 309878157
+      m_Sprite: {fileID: 1795823469, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1795823469, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_4
+      m_Hash: 203212846
+      m_Sprite: {fileID: -737008299, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -737008299, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_5
+      m_Hash: 991688888
+      m_Sprite: {fileID: 480473774, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 480473774, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_6
+      m_Hash: 571648258
+      m_Sprite: {fileID: 238041019, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 238041019, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_7
+      m_Hash: 353737108
+      m_Sprite: {fileID: -1628582120, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1628582120, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_8
+      m_Hash: 95060997
+      m_Sprite: {fileID: -1914522368, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1914522368, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_9
+      m_Hash: 850244755
+      m_Sprite: {fileID: -1707788811, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1707788811, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_10
+      m_Hash: 360069731
+      m_Sprite: {fileID: 861094505, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 861094505, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_11
+      m_Hash: 577833717
+      m_Sprite: {fileID: -276260624, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -276260624, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_12
+      m_Hash: 997743439
+      m_Sprite: {fileID: 686869395, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 686869395, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_13
+      m_Hash: 209677273
+      m_Sprite: {fileID: 1672935633, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1672935633, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_14
+      m_Hash: 303824506
+      m_Sprite: {fileID: 1102588679, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1102588679, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_15
+      m_Hash: 622644972
+      m_Sprite: {fileID: 730165803, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 730165803, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_16
+      m_Hash: 1008050006
+      m_Sprite: {fileID: -902937007, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -902937007, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_17
+      m_Hash: 185774016
+      m_Sprite: {fileID: -720131022, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -720131022, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_18
+      m_Hash: 464368209
+      m_Sprite: {fileID: -256223088, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -256223088, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_19
+      m_Hash: 749372103
+      m_Sprite: {fileID: -974378474, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -974378474, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_20
+      m_Hash: 1046178208
+      m_Sprite: {fileID: 590342445, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 590342445, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_21
+      m_Hash: 157047094
+      m_Sprite: {fileID: 1676721371, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1676721371, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_22
+      m_Hash: 274008204
+      m_Sprite: {fileID: 210123251, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 210123251, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    - m_Name: NPC1_23
+      m_Hash: 659699738
+      m_Sprite: {fileID: -1378862928, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1378862928, guid: 85727e23aebc37144a666a1bb34b395a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 24
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639072758807137474
+  m_Version: 1

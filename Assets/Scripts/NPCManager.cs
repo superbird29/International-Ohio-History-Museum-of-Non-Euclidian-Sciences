@@ -11,12 +11,15 @@ public class NPCManager : MonoBehaviour
     public List<DialogueScriptableObject> DialogueListTours; 
     public List<DialogueScriptableObject> DialogueListGifts; 
     public List<DialogueScriptableObject> DialogueListCards;
+
+    public List<Transform> MovementLists;
     public List<GameObject> TourLocations;
-    public List<CinemachinePathBase> WalkingPaths;
+
+    public float moveX { get; private set; }
+    public float moveY { get; private set; }
 
     //NPC states are spawn, move, quest, 
     public string NPCState = "spawn";
-
     public bool gaveQuest = false;
 
     //Variables to follow player for quest
@@ -26,31 +29,48 @@ public class NPCManager : MonoBehaviour
 
     private string chosenQuest;
     private DialogueScriptableObject chosenDialogue;
-    private CinemachinePathBase chosenPath;
     private GameObject chosenTour;
-    private float maxPosition;
+
+
+    //Movement Script
+    public Transform waypointParent;
+    public float moveSpeed = 2f;
+    public float waitTime = 0.1f;
+    public bool loopWaypoints = false;
+
+    private Transform[] waypoints;
+    private int currentWaypointIndex;
+    private bool isWaiting = false;
+    private Animator animator;
+
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //Setting up the NPC quest, their walking path, and dialogue.
         DialogueActivator dialogueActivator = GetComponent<DialogueActivator>();
-        CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+
         chosenQuest = GetRandomQuest();
         //chosenQuest = "tour";
         chosenDialogue = GetRandomDialogue(chosenQuest);
-        chosenPath = GetWalkingPath(chosenQuest);
+        waypointParent = GetWalkingPath(chosenQuest);
         dialogueActivator.dialogueObject = chosenDialogue;
-        walkingPath.m_Path = chosenPath;
-        maxPosition = walkingPath.m_Path.MaxPos;
-        NPCState = "move";
 
         if (chosenQuest == "tour"){
             chosenTour = GetRandomTour();
         }
 
-        //Store follow values for the tour quest
-     
+
+        animator = GetComponent<Animator>();
+
+        waypoints = new Transform[waypointParent.childCount];
+        for (int i = 0; i < waypointParent.childCount; i++)
+        {
+            waypoints[i] = waypointParent.GetChild(i);
+        }
+
+        NPCState = "move";
+
     }
 
     public string GetRandomQuest()
@@ -127,22 +147,22 @@ public class NPCManager : MonoBehaviour
     }
 
 
-    public CinemachinePathBase GetWalkingPath(string chosenQuest)
+    public Transform GetWalkingPath(string chosenQuest)
     {
         switch (chosenQuest)
         {
-            case "card":
-                return WalkingPaths[0];
+            case "tour":
+                return MovementLists[0];
                 break;
 
             case "gift":
 
-                return WalkingPaths[1];
+                return MovementLists[1];
                 break;
 
-            case "tour":
+            case "card":
 
-                return WalkingPaths[2];
+                return MovementLists[2];
                 break;
 
 
@@ -157,26 +177,42 @@ public class NPCManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (isWaiting || NPCState != "move")
+        {
+            if (NPCState == "quest" && chosenQuest == "tour")
+            {
+
+            }
+            else
+            {
+                animator.SetBool("isWalking", false);
+                return;
+            }
+        }
+
+
+
         if (NPCState == "move")
         {
-            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
-            if (walkingPath.m_Position >= maxPosition)
-            {
-                NPCState = "quest";
-                walkingPath.enabled = false;
-            }
+            animator.SetBool("isWalking", true);
+            MoveToWaypoint();
+
         }
 
         if (NPCState == "quest" && gaveQuest == true)
         {
             if (chosenQuest == "tour")
             {
+                Vector2 direction = (playerTarget.position - transform.position).normalized;
                 transform.position = Vector3.MoveTowards(transform.position, playerTarget.position, followSpeed * Time.deltaTime);
                 chosenTour.SetActive(true);
 
+                animator.SetFloat("InputX", direction.x);
+                animator.SetFloat("InputY", direction.y);
+                animator.SetBool("isWalking", direction.magnitude > 0f);
+
             }
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -189,11 +225,58 @@ public class NPCManager : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy") && NPCState == "move")
         {
-            CinemachineDollyCart walkingPath = GetComponent<CinemachineDollyCart>();
+            //Stop moving if another NPC is waiting in line ahead of you. 
 
             NPCState = "quest";
-            walkingPath.enabled = false;
+            animator.SetBool("isWalking", false);
+
         }
+    }
+
+
+    void MoveToWaypoint()
+    {
+        Transform target = waypoints[currentWaypointIndex];
+        Vector2 direction = (target.position - transform.position).normalized;
+
+
+        transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
+
+
+        animator.SetFloat("InputX", direction.x);
+        animator.SetFloat("InputY", direction.y);
+        animator.SetBool("isWalking", direction.magnitude > 0f);
+
+
+        if (Vector2.Distance(transform.position, target.position) < 0.2f)
+        {
+
+            StartCoroutine(WaitAtWaypoint());
+
+        }
+
+    }
+
+
+    IEnumerator WaitAtWaypoint()
+    {
+        isWaiting = true;
+        animator.SetBool("isWalking", false);
+        yield return new WaitForSeconds(waitTime);
+
+        //The % allows the waypoints to wrap around in a circle
+        //If looping, increment currentwaypointindex and warp around, If NOT looping, increment waypoint but done exceed the final waypoint. 
+        currentWaypointIndex = loopWaypoints ? (currentWaypointIndex + 1) % waypoints.Length : Mathf.Min(currentWaypointIndex + 1, waypoints.Length - 1);
+
+        if (currentWaypointIndex + 1>= waypoints.Length)
+        {
+            Debug.Log("QuestTime");
+            NPCState = "quest";
+            animator.SetBool("isWalking", false);
+        }
+
+        isWaiting = false;
     }
 
     private void QuestComplete()
