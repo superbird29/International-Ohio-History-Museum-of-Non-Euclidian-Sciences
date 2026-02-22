@@ -215,6 +215,7 @@ public class EggManager : MonoBehaviour
         EggProgress();
     }
 
+
     public void IncreaseEggBar(float increase)
     {
         ProgressTotal += increase;
