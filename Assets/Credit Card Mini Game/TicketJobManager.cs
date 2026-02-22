@@ -7,6 +7,8 @@ public class TicketJobManager : LocalJobManager
 {
 
     [SerializeField] CreditCardPad creditCardPad;
+
+    [SerializeField] GameObject creditCardMinigameCanvas;
     public override void JobAdded(Job addedJob)
     {
         creditCardPad.BeginMinigame();
@@ -21,6 +23,7 @@ public class TicketJobManager : LocalJobManager
 
     public override void JobFailed(Job failedJob)
     {
+        creditCardMinigameCanvas.SetActive(false);
         if (JobInQueue())
         {
             creditCardPad.ForceStartMinigame();

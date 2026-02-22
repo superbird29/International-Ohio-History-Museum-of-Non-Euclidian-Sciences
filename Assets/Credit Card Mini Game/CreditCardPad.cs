@@ -53,7 +53,7 @@ public class CreditCardPad : MonoBehaviour
     {
         
             GenerateCreditCard();
-            ClearDisplay();
+            ClearAll();
             checkingNumber = false;
             cardStarted = true;
     }
@@ -120,6 +120,8 @@ public class CreditCardPad : MonoBehaviour
 
     IEnumerator Accepted()
     {
+        ticketCounter.CCEntered();
+        cardStarted = false;
         numberDisplay.text = "ACCEPTED";
 
         yield return new WaitForSeconds(resultDisplayTime);
@@ -133,8 +135,8 @@ public class CreditCardPad : MonoBehaviour
         yield return new WaitForSeconds(resultDisplayTime);
 
         PostValidateCleanup();
-        ticketCounter.CCEntered();
-        cardStarted = false;
+        ticketCounter.DisableCCPadCanvas();
+        
     }
 
     IEnumerator Declined()
