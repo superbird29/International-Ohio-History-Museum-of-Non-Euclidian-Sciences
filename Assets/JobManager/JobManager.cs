@@ -25,6 +25,8 @@ public class JobManager : MonoBehaviour
 
     [SerializeField] AudioSource jobAlert;
 
+    [SerializeField] JobQueueDisplay jobQueueDisplay;
+
     private readonly List<JobType> lastTenJobs = new();
 
     private bool spawningJob;
@@ -68,6 +70,7 @@ public class JobManager : MonoBehaviour
     {
         timeBetweenJobs = Mathf.Min(timeBetweenJobs + 2f, 30f);
         RemoveJob(failedJob);
+        
     }
 
     public void CompleteJob(Job completedJob)
@@ -148,10 +151,13 @@ public class JobManager : MonoBehaviour
             }
         }
         addedJob.StartJob();
+        jobQueueDisplay.UpdateJobDisplayRow();
     }
 
     private bool RemoveJob(Job removedJob)
     {
-        return jobQueue.Remove(removedJob);
+        bool success = jobQueue.Remove(removedJob);
+        jobQueueDisplay.UpdateJobDisplayRow();
+        return success;
     }
 }
