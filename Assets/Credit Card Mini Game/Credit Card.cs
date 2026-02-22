@@ -9,7 +9,7 @@ public class CreditCard : ScriptableObject
     {
         number = "";
         displayNumber = "";
-        for (int i = 0; i < 12; i++)
+        for (int i = 0; i < 9; i++)
         {
             if (i % 3 == 0)
             {

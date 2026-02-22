@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using TMPro;
-using UnityEditor.Animations;
-//using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,7 +31,7 @@ public class EggManager : MonoBehaviour
     {
         //Start Progress Egg Timer
         StartCoroutine(ProgressEgg());
-        StartCoroutine(EggPatience());
+        //StartCoroutine(EggPatience());
     }
 
     void Update()

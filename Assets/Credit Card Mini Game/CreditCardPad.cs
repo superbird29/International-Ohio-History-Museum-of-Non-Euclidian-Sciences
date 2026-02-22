@@ -31,7 +31,7 @@ public class CreditCardPad : MonoBehaviour
 
      void Update()
     {
-        if (enteredNumber.Length >= 12 && !checkingNumber)
+        if (enteredNumber.Length >= 9 && !checkingNumber)
         {
             checkingNumber = true;
             ValidateNumber();
@@ -43,7 +43,7 @@ public class CreditCardPad : MonoBehaviour
         if (!cardStarted)
         {
             GenerateCreditCard();
-            ClearDisplay();
+            ClearAll();
             checkingNumber = false;
             cardStarted = true;
         }

@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuControl : MonoBehaviour
 {
-
+    public string SceneName;
     public AudioSource buttonSound;
     public void SwitchScene()
     {
         buttonSound.Play();
-        SceneManager.LoadScene("PandaScene");
+        SceneManager.LoadScene(SceneName);
     }
 
     public void QuitGame()

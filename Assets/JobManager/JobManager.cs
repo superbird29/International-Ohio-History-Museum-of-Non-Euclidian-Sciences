@@ -39,7 +39,7 @@ public class JobManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeUntilNextJob = 15f;
+        timeUntilNextJob = 4f;
         lastTenJobs.AddRange(startingJobWeights.GetRange(0,10));
         jobQueue.ForEach(job => job.StartJob());
         spawningJob = false;
@@ -66,14 +66,16 @@ public class JobManager : MonoBehaviour
 
     public void FailJob(Job failedJob)
     {
-        timeBetweenJobs += 1f;
+        timeBetweenJobs = Mathf.Min(timeBetweenJobs + 2f, 30f);
         RemoveJob(failedJob);
     }
 
     public void CompleteJob(Job completedJob)
     {
-        timeUntilNextJob -= 10;
-        timeBetweenJobs -= 2f;
+        //timeUntilNextJob -= 10;
+
+        timeBetweenJobs = Mathf.Max(timeBetweenJobs -2f, 5f);
+
         float moneyEarned = 0f;
         switch (completedJob.jobType)
         {

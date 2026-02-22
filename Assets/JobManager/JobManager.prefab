@@ -59,7 +59,7 @@ MonoBehaviour:
   jobAlert: {fileID: 3050452215634351288}
   jobQueue:
   - {fileID: 11400000, guid: ecc02e98db034b145a580997bfb323c1, type: 2}
-  timeBetweenJobs: 30
+  timeBetweenJobs: 10
   maxJobQueue: 5
 --- !u!1 &8554936353774217571
 GameObject:
