@@ -944,7 +944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ticketJobManager: {fileID: 8605031876828302594}
-  displayPrompt: {fileID: 0}
   creditCardPadCanvas: {fileID: 2296234396688270063}
   creditCardPad: {fileID: 1987752288505705030}
   ticketLine: {fileID: 8069375221091061224}
@@ -1114,6 +1113,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 646157628646117747}
     m_Modifications:
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104226422050473319, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -131
+      objectReference: {fileID: 0}
     - target: {fileID: 1579114674223698949, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1197,6 +1220,30 @@ PrefabInstance:
     - target: {fileID: 2152135219263973563, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
       propertyPath: m_Name
       value: Credit Card Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828406694947194207, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 8506782809024168806, guid: 58b67e80a9bf9d54e9797b0178e8201c, type: 3}
       propertyPath: ticketCounter

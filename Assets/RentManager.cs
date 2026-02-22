@@ -7,7 +7,7 @@ using UnityEngine;
 public class RentManager : MonoBehaviour
 {
     private float currentSavings = 0f;
-    private float lifetimeEarnings = 0f;
+    public float lifetimeEarnings = 0f;
 
     [SerializeField] private float rentPaymentCountdown = 300f;
     [SerializeField] private float startingRentPayment = 20f;
