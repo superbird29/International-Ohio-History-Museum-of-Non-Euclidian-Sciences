@@ -118,7 +118,7 @@ public class JobManager : MonoBehaviour
 
     private void UpdateLastTenJobTypes(JobType jobType)
     {
-        lastTenJobs.Remove(0);
+        lastTenJobs.RemoveAt(0);
         lastTenJobs.Add(jobType);
     }
 
