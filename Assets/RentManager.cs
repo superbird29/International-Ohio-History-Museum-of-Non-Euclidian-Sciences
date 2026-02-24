@@ -58,7 +58,7 @@ public class RentManager : MonoBehaviour
     {
         if(currentSavings >= currentRent)
         {
-            currentRent -= currentRent;
+            currentSavings -= currentRent;
             currentRent *= rentGrowthFactor;
         } else
         {
