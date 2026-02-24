@@ -21,7 +21,7 @@ public class CreditCardPad : MonoBehaviour
 
     string enteredNumber;
 
-     void Start()
+     void Awake()
     {
         creditCard = ScriptableObject.CreateInstance<CreditCard>();
         enteredNumber = "";
