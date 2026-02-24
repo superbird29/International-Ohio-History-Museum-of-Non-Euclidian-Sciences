@@ -32,7 +32,7 @@ public class JobQueueDisplay : MonoBehaviour
         GameObject.Destroy(transform.GetChild(i).gameObject);
     }
        List<Job> jobQueue = GameManager.Instance._jobManager.jobQueue;
-       jobQueue.Reverse();
+       jobQueue = jobQueue.OrderBy(job => job.duration).ToList();
          jobQueue.ForEach(job => AddJobToDisplayRow(job));
     }
 
