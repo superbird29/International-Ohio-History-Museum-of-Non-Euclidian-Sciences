@@ -8,9 +8,7 @@ public class Tourist : MonoBehaviour
 {
     bool playerInRange;
 
-    bool followingPlayer;
-
-    [SerializeField] Canvas displayPrompt;
+    public bool followingPlayer {get; set;}
 
     [SerializeField] float touristSpeed;
 
@@ -18,17 +16,18 @@ public class Tourist : MonoBehaviour
 
     Transform playerTransform;
 
+    public TourDeliveryZone tourDeliveryZone {get; set;}
+
+    public TouristSpawnPoint touristSpawnPoint {get; set;}
+
     void Start()
     {
         playerInRange = false;
-        displayPrompt.gameObject.SetActive(false);
-        Debug.Log(GetComponent<CircleCollider2D>().forceReceiveLayers.ToString());
+        followingPlayer = false;
     }
 
     void Update()
     {
-        
-
         if (followingPlayer)
         {
             Vector3 direction = playerTransform.position - transform.position;
@@ -39,6 +38,9 @@ public class Tourist : MonoBehaviour
 
                 transform.position = Vector3.MoveTowards(transform.position, targetPosition, touristSpeed * Time.deltaTime);
             }
+            if(!tourDeliveryZone.gameObject.activeSelf){
+                tourDeliveryZone.gameObject.SetActive(true);
+            }
         }
 
         if (followingPlayer && Input.GetButtonDown("Interact"))
@@ -48,16 +50,23 @@ public class Tourist : MonoBehaviour
 
         if (playerInRange && Input.GetButtonDown("Interact"))
         {
-            followingPlayer = true;        
+            followingPlayer = true;
+            GameManager.Instance._player.FollowingTourist = this;
+        }
+
+        if (touristSpawnPoint != null && !followingPlayer)
+        {
+            transform.position = touristSpawnPoint.transform.position;
         }
     }
+
     
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             playerInRange = true;
-            displayPrompt.gameObject.SetActive(true);
+            GameManager.Instance._player.ActiveInteractPopup();
             playerTransform = collision.gameObject.transform;            
         }
     }
@@ -67,7 +76,17 @@ public class Tourist : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
-            displayPrompt.gameObject.SetActive(false);
+            GameManager.Instance._player.DeactiveInteractPopup();
         }
+    }
+
+    void OnDisable()
+    {
+        if (followingPlayer)
+        {
+            GameManager.Instance._player.FollowingTourist = null;
+        }
+        touristSpawnPoint.hasTourist = false;
+        tourDeliveryZone.tourist = null;
     }
 }

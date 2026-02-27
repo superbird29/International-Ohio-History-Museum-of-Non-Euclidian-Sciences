@@ -1,6 +1,6 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 
@@ -24,6 +24,24 @@ public class Player : MonoBehaviour
     //GiftShop Stuff
     public ResourceBox CarryObject;
     public GameObject CarryingObject;
+
+    private Tourist m_FollowingTourist;
+
+    public Tourist FollowingTourist
+    {
+        get
+        {
+            return m_FollowingTourist;
+        } 
+        set
+        {
+            if(this.m_FollowingTourist != null)
+        {
+            m_FollowingTourist.followingPlayer = false;
+        }
+        m_FollowingTourist = value;
+        }
+    }
 
     private void Start()
     {

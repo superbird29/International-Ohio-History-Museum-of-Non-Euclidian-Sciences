@@ -75,8 +75,6 @@ public class JobManager : MonoBehaviour
 
     public void CompleteJob(Job completedJob)
     {
-        //timeUntilNextJob -= 10;
-
         timeBetweenJobs = Mathf.Max(timeBetweenJobs -2f, 5f);
 
         float moneyEarned = 0f;
@@ -124,8 +122,27 @@ public class JobManager : MonoBehaviour
 
     private JobType RollForJobType()
     {
-        int result = Random.Range(0, 10);
-        return lastTenJobs[result] == JobType.Gift ? JobType.Ticket : JobType.Gift;
+        int result = Random.Range(0, lastTenJobs.Count());
+        JobType jobType = lastTenJobs[result];
+        switch (jobType)
+        {
+            case JobType.Gift:
+            {
+                return Random.Range(0,2) == 0 ? JobType.Ticket : JobType.Tour;
+            }
+            case JobType.Ticket:
+            {
+                return Random.Range(0,2) == 0 ? JobType.Gift : JobType.Tour;
+            }
+            case JobType.Tour:
+            {
+                return Random.Range(0,2) == 0 ? JobType.Ticket : JobType.Gift;
+            }
+            default:
+                {
+                    return JobType.Ticket;
+                } 
+        }
     }
 
     public void AddJob(Job addedJob)
@@ -146,7 +163,7 @@ public class JobManager : MonoBehaviour
             }
             case JobType.Tour:
             {
-                //tourGuidesJobManager.AddJob(addedJob);
+                tourGuidesJobManager.AddJob(addedJob);
                 break;
             }
         }
