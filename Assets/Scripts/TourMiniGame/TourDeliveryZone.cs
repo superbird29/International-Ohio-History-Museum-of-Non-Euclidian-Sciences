@@ -16,7 +16,8 @@ public class TourDeliveryZone : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.Equals(tourist))
+        
+        if (collision.gameObject == tourist.gameObject)
         {
             job.jobManager.CompleteJob(job);
             tourist.gameObject.SetActive(false);
