@@ -62,7 +62,7 @@ public class RentManager : MonoBehaviour
             currentRent *= rentGrowthFactor;
         } else
         {
-            GameManager.Instance._eggManager.IncreaseEggBar(1 - (currentSavings/currentRent));
+            //GameManager.Instance._eggManager.IncreaseEggBar(1 - (currentSavings/currentRent));
             currentSavings = 0f;
         }
         nextRentPaymentText.text = "$" + String.Format("{0:0.00}", currentRent);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public EggManager _eggManager;
+    public EggManager2 _eggManager;
     public Player _player;
 
     public JobManager _jobManager;
